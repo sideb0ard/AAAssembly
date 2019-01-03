@@ -1,0 +1,4 @@
+baseURL = "https://aaassembly.org/"
+languageCode = "en-us"
+title = "Algorithmic Art Assembly"
+theme = "algo"

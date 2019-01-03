@@ -1,0 +1,158 @@
+@font-face {
+    font-family: 'Heebo';
+    src: url('/fonts/heebo/Heebo-Regular.ttf');
+}
+@font-face {
+    font-family: 'Heebo Bold';
+    src: url('/fonts/heebo/Heebo-Bold.ttf');
+}
+
+body {
+    background-color: #FBEED9;
+    font-family: 'Heebo';
+}
+
+#content {
+    padding: 10px 25px 25px 25px;
+}
+
+section {
+    padding-top: 25px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 25px 5px 25px;
+}
+
+footer {
+    padding: 25px;
+}
+
+.footer-logo img {
+    max-height: 35px;
+}
+
+.footer-logo-box {
+    padding-left: 20px;
+}
+
+#sponsors {
+    display: flex;
+    padding-right: 25px;
+    justify-content: flex-end;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.bio {
+    padding-top: 25px;
+    display: flex;
+}
+
+.bio-pic img {
+    max-width: 500px;
+    height: auto;
+}
+
+.bio-text {
+    vertical-align: top;
+    padding-left: 25px;
+}
+
+.list-page {
+    padding-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.list-item {
+	padding-bottom: 15px;
+}
+
+.list-item img {
+    max-width: 301px;
+    height: auto;
+}
+
+.responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+.bold {
+    font-family: 'Heebo Bold';
+}
+
+.bigbold {
+    font-size: 190%;
+    font-family: 'Heebo Bold';
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+#title-text-A {
+    font-size: 307%;
+    vertical-align: top;
+    line-height: 95%;
+    padding:0; margin:0;
+}
+
+#logo {
+    display: flex;
+    padding:0; margin:0;
+}
+
+#bigA {
+    max-height: 95px;
+    padding-right: 20px;
+}
+
+#links {
+    font-size: 150%;
+    line-height: 120%;
+    padding-right: 20px;
+}
+
+#description {
+    max-width: 25%;
+}
+
+@media (max-width: 600px) {
+  header {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+  .list-page {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+  #logo {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+  #description {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    max-width: 300px;
+  }
+  .bio {
+      padding-top: 5px;
+      flex-direction: column;
+  }
+  .bio-text {
+      padding-left: 0px;
+  }
