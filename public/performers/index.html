@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-133175785-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-133175785-1');
+    </script>
+
     <title>Algorithmic Art Assembly!</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,6 +17,7 @@
 </head>
 <body lang="en">
     <header>
+        <div class="header-child">
         <div id="logo">
             <div id="big-A">
                 <a href="/">
@@ -15,12 +25,14 @@
                 </a>
             </div>
             <div id="title-text-A">
-                <a href="/">Algorithmic<br>Art Assembly</a>
+                <a href="/" class="nae-underline">Algorithmic<br>Art Assembly</a>
             </div>
         </div>
-        <div id="spacer"></div>
+        </div>
+        <div class="header-child">
+        <div class="right-half">
         <div id="description">
-            Two days of talks and live music based on algorithmic tools and processes.<br>
+            Two days of talks and two nights of live music, focused on algorithmic tools and processes.<br>
             <div class="bold">
             Gray Area, San Francisco<br>
             March 22-23rd 2019
@@ -28,9 +40,15 @@
         </div>
         <div id="links" class="bold">
             <ul>
-                <li><a href="/speakers/">Speakers</a></li>
-                <li><a href="/performers/" class="underline">Performers</a></li>
+                <li><a href="/lineup/" class="nae-underline">Lineup</a></li>
+                <li><a href="/speakers/" class="nae-underline">Speakers</a></li>
+                <li><a href="/performers/">Performers</a></li>
+                <li><a href="/workshops/" class="nae-underline">Workshops</a></li>
+                <li><a href="/about/" class="nae-underline">About</a></li>
+                <li><a href="https://www.tickettailor.com/events/grayarea/226591/#" target="_blank" class="nae-underline">Tickets</a></li>
             </ul>
+        </div>
+        </div>
         </div>
     </header>
     <div id="content">
@@ -50,13 +68,13 @@
       </div>
   
       <div class="list-item">
-          <a href="https://aaassembly.org/performers/william-fields/"><img src="/imagez/performers/william-fields.jpg" alt="William Fields"></a><br>
-          <a href="https://aaassembly.org/performers/william-fields/">William Fields</a>
+          <a href="https://aaassembly.org/performers/kit-clayton/"><img src="/imagez/performers/kit-clayton.jpg" alt="Kit Clayton"></a><br>
+          <a href="https://aaassembly.org/performers/kit-clayton/">Kit Clayton</a>
       </div>
   
       <div class="list-item">
-          <a href="https://aaassembly.org/performers/julia-litman-cleper/"><img src="/imagez/performers/julia-litman-cleper.jpg" alt="Shatter Pattern"></a><br>
-          <a href="https://aaassembly.org/performers/julia-litman-cleper/">Shatter Pattern</a>
+          <a href="https://aaassembly.org/performers/shatter-pattern/"><img src="/imagez/performers/shatter-pattern.jpg" alt="Shatter Pattern"></a><br>
+          <a href="https://aaassembly.org/performers/shatter-pattern/">Shatter Pattern</a>
       </div>
   
       <div class="list-item">
@@ -75,8 +93,8 @@
       </div>
   
       <div class="list-item">
-          <a href="https://aaassembly.org/performers/can-ince/"><img src="/imagez/performers/can-ince.jpg" alt="Can Ince"></a><br>
-          <a href="https://aaassembly.org/performers/can-ince/">Can Ince</a>
+          <a href="https://aaassembly.org/performers/vou/"><img src="/imagez/performers/vou.jpg" alt="Vou"></a><br>
+          <a href="https://aaassembly.org/performers/vou/">Vou</a>
       </div>
   
       <div class="list-item">
@@ -114,6 +132,11 @@
           <a href="https://aaassembly.org/performers/spednar/">Spednar</a>
       </div>
   
+      <div class="list-item">
+          <a href="https://aaassembly.org/performers/william-fields/"><img src="/imagez/performers/william-fields.jpg" alt="William Fields"></a><br>
+          <a href="https://aaassembly.org/performers/william-fields/">William Fields</a>
+      </div>
+  
   </div>
 </main>
 
@@ -121,12 +144,19 @@
 <footer>
     <div id="sponsors">
         <div id="hpll" class="footer-logo footer-logo-box">
-            <a href="http://highpointlowlife.com" target="_blank"><img src="/imagez/hpll_logo.png" alt="Highpoint Lowlife logo"></a>
+            <a href="http://highpointlowlife.com" target="_blank">
+                <img src="/imagez/hpll_logo.png" alt="Highpoint Lowlife logo">
+            </a>
         </div>
         <div id="grayarea" class="footer-logo footer-logo-box">
-            <a href="https://grayarea.org/" target="_blank"><img src="/imagez/gray_area_logo.png" alt="Gray Area"></a></div>
+            <a href="https://grayarea.org/" target="_blank">
+                <img src="/imagez/gray_area_logo.png" alt="Gray Area">
+            </a>
+        </div>
         <div id="bff" class="footer-logo footer-logo-box">
-            <a href="https://bff.fm" target="_blank">BFF.fm</a>
+            <a href="https://bff.fm" target="_blank">
+                <img src="/imagez/bff-logo.png" alt="BFF.fm">
+            </a>
         </div>
     </div>
 </footer>

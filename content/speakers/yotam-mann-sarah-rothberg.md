@@ -2,9 +2,16 @@
 title: Yotam Mann & Sarah Rothberg
 date: 2018-12-27T15:12:19-08:00
 img: /imagez/speakers/yotam-mann.jpg
-weight: 2
+weight: 4
 website: https://yotammann.info/
 ---
+
+**Blobchat, a Typed-Talk**
+
+Yotam and Sarah communicate about communication, using a text-based musical communication interface. The interface is part of their ongoing project, Blobchat, which combines sound, machine-learning, gesture, and chatrooms as a way to ask: is misunderstanding a part of understanding? How do machines mediate? How else can they?
+
+
+<hr>
 
 Sarah Rothberg is an artist who captures the interplay between technology, systems, and the personal, creating meaning through unique and strange interactions. Her idiosyncratic experiences suggest other ways of remembering, thinking, understanding, and communicating. Sarah's work has been exhibited internationally at venues including Sotheby's s2 gallery, MUTEK festival, Mana Contemporary, and bitforms gallery. She teaches virtual reality at NYU (Tisch) and the New School (Lang).
 

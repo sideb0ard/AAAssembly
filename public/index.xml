@@ -27,7 +27,9 @@ Shelly Knotts is a data musician currently based in Newcastle, UK. She performs 
       <pubDate>Thu, 27 Dec 2018 15:12:19 -0800</pubDate>
       
       <guid>https://aaassembly.org/speakers/windy-chien/</guid>
-      <description>Windy Chien makes art that activates space and elevates the vernacular. She is best known for her 2016 work, The Year of Knots, in which she learned a new knot every day for a year. Her work ranges in size from a knot that can fit in the palm of a child&amp;rsquo;s hand to majestic, room-sized installations that are sought after by private collectors. Following long careers at Apple and in the music industry, she launched her studio in 2015.</description>
+      <description>Algorithms, Aesthetics, and the Artist’s Hand
+If an algorithm is a set of rules that defines a sequence of operations, what does that look like in the hand of a visual artist? Windy Chien speaks about her work with rope and teaches how to tie a knot.
+ Windy Chien makes art that activates space and elevates the vernacular. She is best known for her 2016 work, The Year of Knots, in which she learned a new knot every day for a year.</description>
     </item>
     
     <item>
@@ -36,7 +38,8 @@ Shelly Knotts is a data musician currently based in Newcastle, UK. She performs 
       <pubDate>Thu, 27 Dec 2018 15:12:19 -0800</pubDate>
       
       <guid>https://aaassembly.org/speakers/elizabeth-wilson/</guid>
-      <description>Digital selves is a London based musician who uses live coded algorithms of computer synthesis and found sounds to create a fusion of melodic lo-fi and industrial techno and explores the realm in-between.</description>
+      <description>Algorithms, music and machines
+Algorithms are becoming ubiquitous in society and personal data is being used to drive their decisions. The rise of AI-powered interfaces has seen more devices present in everyday life, such as Google and Amazon’s conversational interfaces, whose algorithms are becoming more obfuscated. There is a need for a shift in focus to repurpose devices and their algorithms as creative tools and for exposed processes in doing so.</description>
     </item>
     
     <item>
@@ -49,12 +52,32 @@ Shelly Knotts is a data musician currently based in Newcastle, UK. She performs 
     </item>
     
     <item>
+      <title>Kit Clayton</title>
+      <link>https://aaassembly.org/performers/kit-clayton/</link>
+      <pubDate>Thu, 27 Dec 2018 15:12:19 -0800</pubDate>
+      
+      <guid>https://aaassembly.org/performers/kit-clayton/</guid>
+      <description>Joshua Kit Clayton, better know by his stage name Kit Clayton, is a San Francisco-based electronic and digital musician and computer programmer. In addition to his musical work, Joshua is a programmer for Cycling &amp;lsquo;74, where he is responsible for further development of the Max/MSP MIDI/audio programming environment. He is a significant contributor to Jitter as well, a multi-dimensional data set processing and visualizing architecture with applications in audio, video, and 3d graphics, which is part of the multimedia package Max.</description>
+    </item>
+    
+    <item>
       <title>Olivia Jack</title>
       <link>https://aaassembly.org/speakers/olivia-jack/</link>
       <pubDate>Thu, 27 Dec 2018 15:12:19 -0800</pubDate>
       
       <guid>https://aaassembly.org/speakers/olivia-jack/</guid>
-      <description>coder + cartographer who likes to collaborate =)</description>
+      <description>Hydra, Live Coding Visuals in the Browser
+Olivia Jack talks about her Hydra project which invites you to reimagine pixels and color, melt your screen live into glitches and textures, and do it all for free on the Web – as you play with others.
+ Olivia Jack is a programmer and artist who works frequently with open-source software, cartography, live coding, and experimental interfaces. Her research interests include algorithmic representations of uncertainty and chaos, peer2peer networking, and live coding as a way to enter into a continuous dialogue or feedback loop between herself and her computer, among other things.</description>
+    </item>
+    
+    <item>
+      <title>Shatter Pattern</title>
+      <link>https://aaassembly.org/performers/shatter-pattern/</link>
+      <pubDate>Thu, 27 Dec 2018 15:12:19 -0800</pubDate>
+      
+      <guid>https://aaassembly.org/performers/shatter-pattern/</guid>
+      <description>Based on observations of disparate corners of world-phenomena like leaf venation to discarded car parts, Shatter Pattern performs the sonic use and misuse of pattern, the formation of and deformation of ordered structures. By creating rhythmic intricacies and then unexpectedly breaking them down into dysfunctional minutia, Shatter Pattern sonically and visually extrudes worlds from signal interferences that interlope with your perception of reality and being, to reuse the shards of fragmented particles of sound as a vaporous reminder of the primacy of earth&amp;rsquo;s grounding power.</description>
     </item>
     
     <item>
@@ -63,44 +86,19 @@ Shelly Knotts is a data musician currently based in Newcastle, UK. She performs 
       <pubDate>Thu, 27 Dec 2018 15:12:19 -0800</pubDate>
       
       <guid>https://aaassembly.org/speakers/yotam-mann-sarah-rothberg/</guid>
-      <description>Sarah Rothberg is an artist who captures the interplay between technology, systems, and the personal, creating meaning through unique and strange interactions. Her idiosyncratic experiences suggest other ways of remembering, thinking, understanding, and communicating. Sarah&amp;rsquo;s work has been exhibited internationally at venues including Sotheby&amp;rsquo;s s2 gallery, MUTEK festival, Mana Contemporary, and bitforms gallery. She teaches virtual reality at NYU (Tisch) and the New School (Lang).
-Yotam is a musician and programmer who makes open-source instruments, musical toys and interactive songs.</description>
+      <description>Blobchat, a Typed-Talk
+Yotam and Sarah communicate about communication, using a text-based musical communication interface. The interface is part of their ongoing project, Blobchat, which combines sound, machine-learning, gesture, and chatrooms as a way to ask: is misunderstanding a part of understanding? How do machines mediate? How else can they?
+ Sarah Rothberg is an artist who captures the interplay between technology, systems, and the personal, creating meaning through unique and strange interactions.</description>
     </item>
     
     <item>
-      <title>M Eifler</title>
-      <link>https://aaassembly.org/speakers/m-eiffler/</link>
+      <title>Chelley Sherman &amp; Christopher Latina</title>
+      <link>https://aaassembly.org/speakers/chelleysherman-christopherlatina/</link>
       <pubDate>Thu, 27 Dec 2018 15:12:19 -0800</pubDate>
       
-      <guid>https://aaassembly.org/speakers/m-eiffler/</guid>
-      <description>M Eifler is an artist and researcher at Microsoft spelunking a galaxy of queer bodies, disabled glamor, and compu spaces. Talk: What I&amp;rsquo;ve learned doing gurilla techo- performance at SFMOMA and beyond</description>
-    </item>
-    
-    <item>
-      <title>William Fields</title>
-      <link>https://aaassembly.org/performers/william-fields/</link>
-      <pubDate>Thu, 27 Dec 2018 15:12:19 -0800</pubDate>
-      
-      <guid>https://aaassembly.org/performers/william-fields/</guid>
-      <description>William Fields (b.1977) is an artist, musician, and composer from the greater Philadelphia area whose work explores algorithmic composition and audio-visual correspondence in the context of real-time improvisational live performance. His music has been released on labels such as Conditional, New York Haunted, Audiobulb, and NOREMIXES. He has performed live throughout the mid-Atlantic region and Canada. His work was selected and choreographed for dance as part of the International Computer Music Conference (ICMC).</description>
-    </item>
-    
-    <item>
-      <title>Julia Litman Cleper</title>
-      <link>https://aaassembly.org/speakers/julia-litman-cleper/</link>
-      <pubDate>Thu, 27 Dec 2018 15:12:19 -0800</pubDate>
-      
-      <guid>https://aaassembly.org/speakers/julia-litman-cleper/</guid>
-      <description>Gleaning inspiration from disparate corners of world-phenomena like leaf venation to discarded car parts, Shatter Pattern performs the sonic use and misuse of pattern, the formation of and deformation of ordered structures. By creating rhythmic intricacies and then unexpectedly breaking them down into dysfunctional minutia, Shatter Pattern performances extrude worlds from signal interferences that interlope with your perception of reality and being, to reuse the shards of fragmented particles of sound as a vaporous reminder of the primacy of earth&amp;rsquo;s grounding power.</description>
-    </item>
-    
-    <item>
-      <title>Shatter Pattern</title>
-      <link>https://aaassembly.org/performers/julia-litman-cleper/</link>
-      <pubDate>Thu, 27 Dec 2018 15:12:19 -0800</pubDate>
-      
-      <guid>https://aaassembly.org/performers/julia-litman-cleper/</guid>
-      <description>Gleaning inspiration from disparate corners of world-phenomena like leaf venation to discarded car parts, Shatter Pattern performs the sonic use and misuse of pattern, the formation of and deformation of ordered structures. By creating rhythmic intricacies and then unexpectedly breaking them down into dysfunctional minutia, Shatter Pattern performances extrude worlds from signal interferences that interlope with your perception of reality and being, to reuse the shards of fragmented particles of sound as a vaporous reminder of the primacy of earth&amp;rsquo;s grounding power.</description>
+      <guid>https://aaassembly.org/speakers/chelleysherman-christopherlatina/</guid>
+      <description>Perceptual Geometries
+Chelley Sherman is an interactive media artist creating XR audio visual works. Christopher Latina is an engineer, composer and designer working with hybrid hardware and software mediums to create immersive environments. Chelley will explain her evolution of designing &amp;ldquo;Dispersion&amp;rdquo;, an immersive VR experience and other sonic environment into organic 3D spatial sound sculptures and explore different modes of sensory and perceptual illusion using spatial audio, haptics, and virtual and augmented reality.</description>
     </item>
     
     <item>
@@ -122,12 +120,14 @@ Yotam is a musician and programmer who makes open-source instruments, musical to
     </item>
     
     <item>
-      <title>Jon Leidecker</title>
-      <link>https://aaassembly.org/speakers/jon-leidecker/</link>
+      <title>Jules Litman-Cleper</title>
+      <link>https://aaassembly.org/speakers/jules-litman-cleper/</link>
       <pubDate>Thu, 27 Dec 2018 15:12:19 -0800</pubDate>
       
-      <guid>https://aaassembly.org/speakers/jon-leidecker/</guid>
-      <description>Jon Leidecker has been engaged with the medium of electronic music since the mid 1980&amp;rsquo;s, with an emphasis on live performance and collaboration. Early works utilized sonic collage &amp;amp; musical appropriation, growing out of a series of appearances on Negativland&amp;rsquo;s live-mix radio program Over The Edge &amp;ndash; improvising with recorded sounds to produce music which inherently resists the act of being recorded. Recent work investigates the history and musical aesthetics implied by the physics of acoustic and electrical feedback, research into the technology and creative workflow required for immersive sound diffusion (including five years of work as a member of the engineering team for Dolby&amp;rsquo;s 3D sound format Atmos), and the use of mobile devices and their built-in microphones as cybernetic improvising partners.</description>
+      <guid>https://aaassembly.org/speakers/jules-litman-cleper/</guid>
+      <description>Queering Generativity, Querying Generativity: Generative Algorithms and Postnatural narratives
+This talk will focus on Generative algorithms, growth algorithms, Evolutionary and Life simulation in order to ask how algorithmic principles, and their rendered visual outputs, construct and deconstruct narratives about the &amp;ldquo;natural&amp;rdquo; the &amp;ldquo;living&amp;rdquo;&amp;rdquo; and &amp;ldquo;non-living&amp;rdquo; and the dynamics of gendered social relations.
+ Jules Litman-Cleper is interested in simulated space and materiality as a new creative substrate, with the potential to generate knowledge about our patterns of interaction with information and environment.</description>
     </item>
     
     <item>
@@ -136,7 +136,17 @@ Yotam is a musician and programmer who makes open-source instruments, musical to
       <pubDate>Thu, 27 Dec 2018 15:12:19 -0800</pubDate>
       
       <guid>https://aaassembly.org/performers/kindohm/</guid>
-      <description>Kindohm is Mike Hodnick, a programmer and sound artist from Chaska, Minnesota, USA. He has performed his brand of coded, algorithmic electronic music internationally, appearing at Algoraves and the International Conference on Live Coding in 2015 and 2016. Hodnick sequences sharp synthesis and drums with stacks of TidalCycles pattern code, resulting in bruisingly complex and alluringly minimal live arrangements. In 2014, Hodnick received the Minnesota Emerging Composer Award from the American Composers Forum.</description>
+      <description>Kindohm is Mike Hodnick, a programmer and sound artist from Chaska, Minnesota, USA. He has performed his brand of coded, algorithmic electronic music internationally, appearing at Algoraves and the International Conference on Live Coding in 2015 and 2016. In 2014, he received the Minnesota Emerging Composer Award from the American Composers Forum. Hodnick sequences sharp synthesis and drums with stacks of TidalCycles pattern code, resulting in bruisingly complex and alluringly minimal live arrangements.</description>
+    </item>
+    
+    <item>
+      <title>Jon Leidecker</title>
+      <link>https://aaassembly.org/speakers/jon-leidecker/</link>
+      <pubDate>Thu, 27 Dec 2018 15:12:19 -0800</pubDate>
+      
+      <guid>https://aaassembly.org/speakers/jon-leidecker/</guid>
+      <description>United Feedback
+The seemingly recent interests in generative music and creative machine learning in fact stem back to the earliest electronic music studio in the United States, run by Louis and Bebe Barron. Their statements of purpose, encompassing cybernetics and self-playing circuits, place feedback as the defining idiomatic voice of the medium, and the central organizing principle of a live performance method. This lecture traces commonalities in the works of the Barrons, Ussachevsky, David Tudor, the members of the Sonic Arts Union, Eliane Radigue and Roland Kayn.</description>
     </item>
     
     <item>
@@ -145,16 +155,28 @@ Yotam is a musician and programmer who makes open-source instruments, musical to
       <pubDate>Thu, 27 Dec 2018 15:12:19 -0800</pubDate>
       
       <guid>https://aaassembly.org/speakers/adam-roberts/</guid>
-      <description></description>
+      <description>Exploring the Creative Potential of Deep Learning through the Magenta Project
+Over the past 3 years, the increase in the generative power of deep neural networks has been staggering. WaveNets can produce speech nearly indistinguishable from humans, GANs generate images of imagined faces in great detail, and Music Transformers can play piano like a virtuoso. In this talk we will examine the recent progress in deep learning-based generative models and see how this new technology can be used as a tool to enhance, not replace human creativity.</description>
     </item>
     
     <item>
-      <title>Can Ince</title>
-      <link>https://aaassembly.org/performers/can-ince/</link>
+      <title>Vou</title>
+      <link>https://aaassembly.org/performers/vou/</link>
       <pubDate>Thu, 27 Dec 2018 15:12:19 -0800</pubDate>
       
-      <guid>https://aaassembly.org/performers/can-ince/</guid>
-      <description>Programmer || Instrument Designer || Beat-Maker</description>
+      <guid>https://aaassembly.org/performers/vou/</guid>
+      <description>Vou is a digital instrument maker and programmer based in the UK. He utilises a live-coding tracker to generate rhythmic patterns with drawing sounds from electro and braindance. The soundscapes that seek hypnotic states, patterns generated by functions and some rhythmic some of the codified tracks, being split up and re-constructed live.</description>
+    </item>
+    
+    <item>
+      <title>Marc Weidenbaum</title>
+      <link>https://aaassembly.org/speakers/marc-weidenbaum/</link>
+      <pubDate>Thu, 27 Dec 2018 15:12:19 -0800</pubDate>
+      
+      <guid>https://aaassembly.org/speakers/marc-weidenbaum/</guid>
+      <description>The Woodshed Is a Black Box
+How a rules-based system formed, shapes, and fuels the long-running online music community known as the Disquiet Junto.
+ Marc Weidenbaum founded the website Disquiet.com in 1996 at the intersection of sound, art, and technology, and since 2012 has moderated the Disquiet Junto, an active online community of weekly music/sonic projects that explore creative constraints. A former editor of Tower Records&amp;rsquo; music magazines, Weidenbaum is the author of the 33 1&amp;frasl;3 book on Aphex Twin’s classic album Selected Ambient Works Volume II, and has written for Nature, Boing Boing, Pitchfork, Downbeat, NewMusicBox, Art Practical, The Atlantic online, and numerous other periodicals.</description>
     </item>
     
     <item>
@@ -167,12 +189,14 @@ Yotam is a musician and programmer who makes open-source instruments, musical to
     </item>
     
     <item>
-      <title>Graham Wakefield</title>
-      <link>https://aaassembly.org/speakers/graham-wakefield/</link>
+      <title>Adam Florin</title>
+      <link>https://aaassembly.org/speakers/adam-florin/</link>
       <pubDate>Thu, 27 Dec 2018 15:12:19 -0800</pubDate>
       
-      <guid>https://aaassembly.org/speakers/graham-wakefield/</guid>
-      <description></description>
+      <guid>https://aaassembly.org/speakers/adam-florin/</guid>
+      <description>The Formalist-Industrial Complex
+Brian Eno, who coined the phrase “generative music”, recently likened it to gardening—but the material practice is just as much rooted in centuries of formal aesthetics, predictive statistics, and industrial automation. How can we negotiate the tension between the organic and the mechanical in the algorithmic arts?
+ Adam Florin is an independent UX Engineer, who has been creating interactive media for 10+ years for clients such as Levi&amp;rsquo;s®, Facebook, MoMA, General Electric, and Google, earning a South by Southwest Interactive award.</description>
     </item>
     
     <item>
@@ -194,6 +218,26 @@ Yotam is a musician and programmer who makes open-source instruments, musical to
     </item>
     
     <item>
+      <title>SPACEFILLER</title>
+      <link>https://aaassembly.org/speakers/spacefiller/</link>
+      <pubDate>Thu, 27 Dec 2018 15:12:19 -0800</pubDate>
+      
+      <guid>https://aaassembly.org/speakers/spacefiller/</guid>
+      <description>On the Edge of Chaos
+Chaos emerges spontaneously in even the simplest systems, and when it does, it renders those systems impossible to predict. What conditions must exist for chaos to arise? How does chaos differ from randomness? How does chaos relate to complexity? We&amp;rsquo;ll ponder these questions and describe how they relate to the interactive installations we build. In particular, we&amp;rsquo;ll discuss the fascinating boundary between order and chaos — an element we find ourselves returning to again and again in our work.</description>
+    </item>
+    
+    <item>
+      <title>Monica Dinculescu</title>
+      <link>https://aaassembly.org/speakers/monica-dinculescu/</link>
+      <pubDate>Thu, 27 Dec 2018 15:12:19 -0800</pubDate>
+      
+      <guid>https://aaassembly.org/speakers/monica-dinculescu/</guid>
+      <description>Why you should build silly things
+People make things. You make things. Most of the time you make Very Serious Things™️ that help your bosses sell more shoes or saxophones or those tiny coffee packets. And that’s good, because you gotta eat and stuff. But something else has gotta eat, too: your brain. Music is creation, art is creation, code is creation. I think it’s important to goof around with code sometimes, or make things that let other people goof around with code.</description>
+    </item>
+    
+    <item>
       <title>TVO</title>
       <link>https://aaassembly.org/performers/tvo/</link>
       <pubDate>Thu, 27 Dec 2018 15:12:19 -0800</pubDate>
@@ -209,7 +253,19 @@ Over 20 years he has performed in groups, in collaborations and solo across a wi
       <pubDate>Thu, 27 Dec 2018 15:12:19 -0800</pubDate>
       
       <guid>https://aaassembly.org/performers/charlie-roberts/</guid>
-      <description></description>
+      <description>Charlie Roberts is an Assistant Professor of Computer Science at Worcester Polytechnic Institute, with an affiliation in the Interactive Media &amp;amp; Game Development program.
+His research examines human-centered computing in digital arts practice. He designed and developed a creative coding environment for the browser, Gibber, that he uses both for educational research and audiovisual performances. Gibber is used to teach computational media to middle school, high school and university students in locations around the world, and he has performed with it throughout the US, UK and Asia in the experimental performance genre known as live coding.</description>
+    </item>
+    
+    <item>
+      <title>Marque Cornblatt</title>
+      <link>https://aaassembly.org/speakers/marquecornblatt/</link>
+      <pubDate>Thu, 27 Dec 2018 15:12:19 -0800</pubDate>
+      
+      <guid>https://aaassembly.org/speakers/marquecornblatt/</guid>
+      <description>A Future Sports Manifesto
+Games, play and sport have been around since the dawn of humans and have always been a reflection of time, place and culture. Future Sports are rooted in digital, virtual and immersive technologies, and connect with audiences on new, interactive platforms unimaginable just a few years ago. What defines a future sport and what does it say about our current culture?
+ Marque has created award-winning art and media for years, earning millions of social media followers and viewers.</description>
     </item>
     
     <item>
@@ -231,22 +287,78 @@ Over 20 years he has performed in groups, in collaborations and solo across a wi
     </item>
     
     <item>
-      <title>Adam Florin</title>
-      <link>https://aaassembly.org/speakers/adam-florin/</link>
+      <title>William Fields</title>
+      <link>https://aaassembly.org/performers/william-fields/</link>
       <pubDate>Thu, 27 Dec 2018 15:12:19 -0800</pubDate>
       
-      <guid>https://aaassembly.org/speakers/adam-florin/</guid>
-      <description>Adam Florin is an independent UX Engineer, who has been creating interactive media for 10+ years for clients such as Levi&amp;rsquo;s®, Facebook, MoMA, General Electric, and Google, earning a South by Southwest Interactive award. He holds an MFA from CalArts, recently participated in the Gray Area incubator, and created the generative music sequencer Patter for Ableton Live.
-Adam lives and works in Oakland, CA.</description>
+      <guid>https://aaassembly.org/performers/william-fields/</guid>
+      <description>William Fields (b.1977) is an artist, musician, and composer from the greater Philadelphia area whose work explores algorithmic composition and audio-visual correspondence in the context of real-time improvisational live performance. His music has been released on labels such as Conditional, New York Haunted, Audiobulb, and NOREMIXES. Fields is the host of the algorithmic music radio show FieldsOS on Resonance EXTRA. He has performed live throughout the mid-Atlantic region and Canada. His work was selected and choreographed for dance as part of the International Computer Music Conference (ICMC).</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://aaassembly.org/speakers/blank1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://aaassembly.org/speakers/blank1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://aaassembly.org/speakers/blank2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://aaassembly.org/speakers/blank2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://aaassembly.org/speakers/blank3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://aaassembly.org/speakers/blank3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://aaassembly.org/about/</link>
+      <pubDate>Wed, 02 Jan 2019 20:22:44 -0800</pubDate>
+      
+      <guid>https://aaassembly.org/about/</guid>
+      <description>Algorithmic Art Assembly is a brand new two day conference and music festival, showcasing a diverse range of artists who are using algorithmic tools and processes in their works. From live coding visuals and music at algoraves, to virtual reality, gaming, augmented tooling, generative music composition, or knot tying, this event celebrates artists abusing algorithms for the aesthetics.  Daytime talks will present speakers introducing and demonstrating their art, in an informal and relaxed setting, (very much inspired by Dorkbot).</description>
+    </item>
+    
+    <item>
+      <title>Lineup</title>
+      <link>https://aaassembly.org/lineup/</link>
+      <pubDate>Wed, 02 Jan 2019 20:22:44 -0800</pubDate>
+      
+      <guid>https://aaassembly.org/lineup/</guid>
+      <description>Friday, March 22nd 2019  Daytime Presentations (12-4:30pm):
+11:30amCheck In 12:00pmMarc Weidenbaum
+The Woodshed Is a Black Box 12:35pmAdam Roberts
+Exploring the Creative Potential of Deep Learning through the Magenta Project Break
+ 1:20pmMonica Dinculescu
+Why you should build silly things 1:55pmElizabeth Wilson
+Algorithms, music and machines. Break
+ 2:40pmYotam Mann &amp; Sarah Rothberg
+Blobchat, a Typed-Talk 3:15pmJon Leidecker
+United Feedback  3:50pmWindy Chien
+Algorithms, Aesthetics, and the Artist’s Hand.</description>
     </item>
     
     <item>
       <title>Workshops</title>
       <link>https://aaassembly.org/workshops/</link>
-      <pubDate>Wed, 02 Jan 2019 20:16:29 -0800</pubDate>
+      <pubDate>Wed, 02 Jan 2019 20:22:44 -0800</pubDate>
       
       <guid>https://aaassembly.org/workshops/</guid>
-      <description>jobbies</description>
+      <description>Friday, March 22nd 2019  Beginner&#39;s Live Coding Workshop For Women and Non-Binary People A beginners&#39; live coding workshop presented by SONA, for women and non-binary people. The workshop will be lead by Shelly Knotts and Joanne Armitage (Algobabez).
+Learn the basics of setting up a live coding session and making soundscapes and beats with sound synthesis and patterns in SuperCollider.
+SuperCollider is an incredibly powerful, open-source, cross-platform, audio engine and programming language, used not only to create music, but also for machine listening, audio/music reactive installations, performance, interactive systems, research, live-coding and much more.</description>
     </item>
     
   </channel>

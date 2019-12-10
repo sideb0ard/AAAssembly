@@ -31,21 +31,21 @@ Shelly Knotts is a data musician currently based in Newcastle, UK. She performs 
     </item>
     
     <item>
-      <title>William Fields</title>
-      <link>https://aaassembly.org/performers/william-fields/</link>
+      <title>Kit Clayton</title>
+      <link>https://aaassembly.org/performers/kit-clayton/</link>
       <pubDate>Thu, 27 Dec 2018 15:12:19 -0800</pubDate>
       
-      <guid>https://aaassembly.org/performers/william-fields/</guid>
-      <description>William Fields (b.1977) is an artist, musician, and composer from the greater Philadelphia area whose work explores algorithmic composition and audio-visual correspondence in the context of real-time improvisational live performance. His music has been released on labels such as Conditional, New York Haunted, Audiobulb, and NOREMIXES. He has performed live throughout the mid-Atlantic region and Canada. His work was selected and choreographed for dance as part of the International Computer Music Conference (ICMC).</description>
+      <guid>https://aaassembly.org/performers/kit-clayton/</guid>
+      <description>Joshua Kit Clayton, better know by his stage name Kit Clayton, is a San Francisco-based electronic and digital musician and computer programmer. In addition to his musical work, Joshua is a programmer for Cycling &amp;lsquo;74, where he is responsible for further development of the Max/MSP MIDI/audio programming environment. He is a significant contributor to Jitter as well, a multi-dimensional data set processing and visualizing architecture with applications in audio, video, and 3d graphics, which is part of the multimedia package Max.</description>
     </item>
     
     <item>
       <title>Shatter Pattern</title>
-      <link>https://aaassembly.org/performers/julia-litman-cleper/</link>
+      <link>https://aaassembly.org/performers/shatter-pattern/</link>
       <pubDate>Thu, 27 Dec 2018 15:12:19 -0800</pubDate>
       
-      <guid>https://aaassembly.org/performers/julia-litman-cleper/</guid>
-      <description>Gleaning inspiration from disparate corners of world-phenomena like leaf venation to discarded car parts, Shatter Pattern performs the sonic use and misuse of pattern, the formation of and deformation of ordered structures. By creating rhythmic intricacies and then unexpectedly breaking them down into dysfunctional minutia, Shatter Pattern performances extrude worlds from signal interferences that interlope with your perception of reality and being, to reuse the shards of fragmented particles of sound as a vaporous reminder of the primacy of earth&amp;rsquo;s grounding power.</description>
+      <guid>https://aaassembly.org/performers/shatter-pattern/</guid>
+      <description>Based on observations of disparate corners of world-phenomena like leaf venation to discarded car parts, Shatter Pattern performs the sonic use and misuse of pattern, the formation of and deformation of ordered structures. By creating rhythmic intricacies and then unexpectedly breaking them down into dysfunctional minutia, Shatter Pattern sonically and visually extrudes worlds from signal interferences that interlope with your perception of reality and being, to reuse the shards of fragmented particles of sound as a vaporous reminder of the primacy of earth&amp;rsquo;s grounding power.</description>
     </item>
     
     <item>
@@ -72,16 +72,16 @@ Shelly Knotts is a data musician currently based in Newcastle, UK. She performs 
       <pubDate>Thu, 27 Dec 2018 15:12:19 -0800</pubDate>
       
       <guid>https://aaassembly.org/performers/kindohm/</guid>
-      <description>Kindohm is Mike Hodnick, a programmer and sound artist from Chaska, Minnesota, USA. He has performed his brand of coded, algorithmic electronic music internationally, appearing at Algoraves and the International Conference on Live Coding in 2015 and 2016. Hodnick sequences sharp synthesis and drums with stacks of TidalCycles pattern code, resulting in bruisingly complex and alluringly minimal live arrangements. In 2014, Hodnick received the Minnesota Emerging Composer Award from the American Composers Forum.</description>
+      <description>Kindohm is Mike Hodnick, a programmer and sound artist from Chaska, Minnesota, USA. He has performed his brand of coded, algorithmic electronic music internationally, appearing at Algoraves and the International Conference on Live Coding in 2015 and 2016. In 2014, he received the Minnesota Emerging Composer Award from the American Composers Forum. Hodnick sequences sharp synthesis and drums with stacks of TidalCycles pattern code, resulting in bruisingly complex and alluringly minimal live arrangements.</description>
     </item>
     
     <item>
-      <title>Can Ince</title>
-      <link>https://aaassembly.org/performers/can-ince/</link>
+      <title>Vou</title>
+      <link>https://aaassembly.org/performers/vou/</link>
       <pubDate>Thu, 27 Dec 2018 15:12:19 -0800</pubDate>
       
-      <guid>https://aaassembly.org/performers/can-ince/</guid>
-      <description>Programmer || Instrument Designer || Beat-Maker</description>
+      <guid>https://aaassembly.org/performers/vou/</guid>
+      <description>Vou is a digital instrument maker and programmer based in the UK. He utilises a live-coding tracker to generate rhythmic patterns with drawing sounds from electro and braindance. The soundscapes that seek hypnotic states, patterns generated by functions and some rhythmic some of the codified tracks, being split up and re-constructed live.</description>
     </item>
     
     <item>
@@ -127,7 +127,8 @@ Over 20 years he has performed in groups, in collaborations and solo across a wi
       <pubDate>Thu, 27 Dec 2018 15:12:19 -0800</pubDate>
       
       <guid>https://aaassembly.org/performers/charlie-roberts/</guid>
-      <description></description>
+      <description>Charlie Roberts is an Assistant Professor of Computer Science at Worcester Polytechnic Institute, with an affiliation in the Interactive Media &amp;amp; Game Development program.
+His research examines human-centered computing in digital arts practice. He designed and developed a creative coding environment for the browser, Gibber, that he uses both for educational research and audiovisual performances. Gibber is used to teach computational media to middle school, high school and university students in locations around the world, and he has performed with it throughout the US, UK and Asia in the experimental performance genre known as live coding.</description>
     </item>
     
     <item>
@@ -146,6 +147,15 @@ Over 20 years he has performed in groups, in collaborations and solo across a wi
       
       <guid>https://aaassembly.org/performers/spednar/</guid>
       <description>a horrid fusion of musique concrete and malfunctioning enterprise.</description>
+    </item>
+    
+    <item>
+      <title>William Fields</title>
+      <link>https://aaassembly.org/performers/william-fields/</link>
+      <pubDate>Thu, 27 Dec 2018 15:12:19 -0800</pubDate>
+      
+      <guid>https://aaassembly.org/performers/william-fields/</guid>
+      <description>William Fields (b.1977) is an artist, musician, and composer from the greater Philadelphia area whose work explores algorithmic composition and audio-visual correspondence in the context of real-time improvisational live performance. His music has been released on labels such as Conditional, New York Haunted, Audiobulb, and NOREMIXES. Fields is the host of the algorithmic music radio show FieldsOS on Resonance EXTRA. He has performed live throughout the mid-Atlantic region and Canada. His work was selected and choreographed for dance as part of the International Computer Music Conference (ICMC).</description>
     </item>
     
   </channel>

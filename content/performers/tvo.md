@@ -3,7 +3,7 @@ title: TVO
 date: 2018-12-27T15:12:19-08:00
 img: "/imagez/performers/tvo.jpg"
 website: http://ruaridhtvo.tumblr.com/
-weight: 9
+weight: 12
 ---
 
 TVO is Ruaridh Law; a sound artist and musician based in Paisley, Scotland.

@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-133175785-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-133175785-1');
+    </script>
+
     <title>Algorithmic Art Assembly!</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,6 +17,7 @@
 </head>
 <body lang="en">
     <header>
+        <div class="header-child">
         <div id="logo">
             <div id="big-A">
                 <a href="/">
@@ -15,12 +25,14 @@
                 </a>
             </div>
             <div id="title-text-A">
-                <a href="/">Algorithmic<br>Art Assembly</a>
+                <a href="/" class="nae-underline">Algorithmic<br>Art Assembly</a>
             </div>
         </div>
-        <div id="spacer"></div>
+        </div>
+        <div class="header-child">
+        <div class="right-half">
         <div id="description">
-            Two days of talks and live music based on algorithmic tools and processes.<br>
+            Two days of talks and two nights of live music, focused on algorithmic tools and processes.<br>
             <div class="bold">
             Gray Area, San Francisco<br>
             March 22-23rd 2019
@@ -28,9 +40,15 @@
         </div>
         <div id="links" class="bold">
             <ul>
-                <li><a href="/speakers/"{{ if eq .Section "speakers" }} class="underline"{{ end }}>Speakers</a></li>
-                <li><a href="/performers/"{{ if eq .Section "performers" }} class="underline"{{ end }}>Performers</a></li>
+                <li><a href="/lineup/"{{ if ne .Title "Lineup" }} class="nae-underline"{{ end }}>Lineup</a></li>
+                <li><a href="/speakers/"{{ if ne .Section "speakers" }} class="nae-underline"{{ end }}>Speakers</a></li>
+                <li><a href="/performers/"{{ if ne .Section "performers" }} class="nae-underline"{{ end }}>Performers</a></li>
+                <li><a href="/workshops/"{{ if ne .Title "Workshops" }} class="nae-underline"{{ end }}>Workshops</a></li>
+                <li><a href="/about/"{{ if ne .Title "About" }} class="nae-underline"{{ end }}>About</a></li>
+                <li><a href="https://www.tickettailor.com/events/grayarea/226591/#" target="_blank" class="nae-underline">Tickets</a></li>
             </ul>
+        </div>
+        </div>
         </div>
     </header>
     <div id="content">

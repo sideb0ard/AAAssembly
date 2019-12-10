@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-133175785-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-133175785-1');
+    </script>
+
     <title>Algorithmic Art Assembly!</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,6 +17,7 @@
 </head>
 <body lang="en">
     <header>
+        <div class="header-child">
         <div id="logo">
             <div id="big-A">
                 <a href="/">
@@ -15,12 +25,14 @@
                 </a>
             </div>
             <div id="title-text-A">
-                <a href="/">Algorithmic<br>Art Assembly</a>
+                <a href="/" class="nae-underline">Algorithmic<br>Art Assembly</a>
             </div>
         </div>
-        <div id="spacer"></div>
+        </div>
+        <div class="header-child">
+        <div class="right-half">
         <div id="description">
-            Two days of talks and live music based on algorithmic tools and processes.<br>
+            Two days of talks and two nights of live music, focused on algorithmic tools and processes.<br>
             <div class="bold">
             Gray Area, San Francisco<br>
             March 22-23rd 2019
@@ -28,9 +40,15 @@
         </div>
         <div id="links" class="bold">
             <ul>
-                <li><a href="/speakers/" class="underline">Speakers</a></li>
-                <li><a href="/performers/">Performers</a></li>
+                <li><a href="/lineup/" class="nae-underline">Lineup</a></li>
+                <li><a href="/speakers/">Speakers</a></li>
+                <li><a href="/performers/" class="nae-underline">Performers</a></li>
+                <li><a href="/workshops/" class="nae-underline">Workshops</a></li>
+                <li><a href="/about/" class="nae-underline">About</a></li>
+                <li><a href="https://www.tickettailor.com/events/grayarea/226591/#" target="_blank" class="nae-underline">Tickets</a></li>
             </ul>
+        </div>
+        </div>
         </div>
     </header>
     <div id="content">
@@ -39,17 +57,23 @@
 
 <main>
 <div class="bio">
-    <div class="bio-pic">
+    <div class="bio-pic bio-child">
         <img src="/imagez/speakers/yotam-mann.jpg" alt="Yotam Mann &amp; Sarah Rothberg">
     </div>
-    <div class="bio-text">
+    <div class="bio-text bio-child">
         <div class="bigbold">Yotam Mann &amp; Sarah Rothberg</div>
 		
 		<div class="bio-url">
 		<a href="https://yotammann.info/" target="_blank" class="underline">https://yotammann.info/</a>
 		</div>
 		
-        <p>Sarah Rothberg is an artist who captures the interplay between technology, systems, and the personal, creating meaning through unique and strange interactions. Her idiosyncratic experiences suggest other ways of remembering, thinking, understanding, and communicating. Sarah&rsquo;s work has been exhibited internationally at venues including Sotheby&rsquo;s s2 gallery, MUTEK festival, Mana Contemporary, and bitforms gallery. She teaches virtual reality at NYU (Tisch) and the New School (Lang).</p>
+        <p><strong>Blobchat, a Typed-Talk</strong></p>
+
+<p>Yotam and Sarah communicate about communication, using a text-based musical communication interface. The interface is part of their ongoing project, Blobchat, which combines sound, machine-learning, gesture, and chatrooms as a way to ask: is misunderstanding a part of understanding? How do machines mediate? How else can they?</p>
+
+<hr>
+
+<p>Sarah Rothberg is an artist who captures the interplay between technology, systems, and the personal, creating meaning through unique and strange interactions. Her idiosyncratic experiences suggest other ways of remembering, thinking, understanding, and communicating. Sarah&rsquo;s work has been exhibited internationally at venues including Sotheby&rsquo;s s2 gallery, MUTEK festival, Mana Contemporary, and bitforms gallery. She teaches virtual reality at NYU (Tisch) and the New School (Lang).</p>
 
 <p>Yotam is a musician and programmer who makes open-source instruments, musical toys and interactive songs. The internet and web browser are his primary medium. His work has appeared on the front page of Reddit and Google. He was part of the inaugural class at NEW INC, adjunct professor at ITP NYU Tisch, and 2016 Creative Capital Grantee in Emerging Fields.</p>
 
@@ -62,12 +86,19 @@
 <footer>
     <div id="sponsors">
         <div id="hpll" class="footer-logo footer-logo-box">
-            <a href="http://highpointlowlife.com" target="_blank"><img src="/imagez/hpll_logo.png" alt="Highpoint Lowlife logo"></a>
+            <a href="http://highpointlowlife.com" target="_blank">
+                <img src="/imagez/hpll_logo.png" alt="Highpoint Lowlife logo">
+            </a>
         </div>
         <div id="grayarea" class="footer-logo footer-logo-box">
-            <a href="https://grayarea.org/" target="_blank"><img src="/imagez/gray_area_logo.png" alt="Gray Area"></a></div>
+            <a href="https://grayarea.org/" target="_blank">
+                <img src="/imagez/gray_area_logo.png" alt="Gray Area">
+            </a>
+        </div>
         <div id="bff" class="footer-logo footer-logo-box">
-            <a href="https://bff.fm" target="_blank">BFF.fm</a>
+            <a href="https://bff.fm" target="_blank">
+                <img src="/imagez/bff-logo.png" alt="BFF.fm">
+            </a>
         </div>
     </div>
 </footer>
