@@ -1,7 +1,7 @@
 ---
 title: Adam Roberts
 date: 2018-12-27T15:12:19-08:00
-img: /imagez/speakers/adam-roberts.jpg
+img: /2019/imagez/speakers/adam-roberts.jpg
 weight: 8
 website: "https://ai.google/research/people/104881"
 ---

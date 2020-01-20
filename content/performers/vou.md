@@ -1,7 +1,7 @@
 ---
 title: "Vou"
 date: 2018-12-27T15:12:19-08:00
-img: "/imagez/performers/vou.jpg"
+img: "/2019/imagez/performers/vou.jpg"
 website: "https://ince.io/"
 weight: 8
 ---

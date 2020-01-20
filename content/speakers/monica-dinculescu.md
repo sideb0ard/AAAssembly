@@ -1,7 +1,7 @@
 ---
 title: Monica Dinculescu
 date: 2018-12-27T15:12:19-08:00
-img: /imagez/speakers/monica-dinculescu.jpg
+img: /2019/imagez/speakers/monica-dinculescu.jpg
 weight: 12
 website: https://meowni.ca/
 ---

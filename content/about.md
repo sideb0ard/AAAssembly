@@ -6,7 +6,7 @@ date: 2019-01-02T20:22:44-08:00
 <div class="about">
 
 <div class="about-child">
-<img src="/imagez/about/algorave.jpg">
+<img src="/2019/imagez/about/algorave.jpg">
 </div>
 
 <div class="about-child">

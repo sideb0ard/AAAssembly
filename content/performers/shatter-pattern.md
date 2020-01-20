@@ -1,7 +1,7 @@
 ---
 title: Shatter Pattern
 date: 2018-12-27T15:12:19-08:00
-img: "/imagez/performers/shatter-pattern.jpg"
+img: "/2019/imagez/performers/shatter-pattern.jpg"
 website: https://soundcloud.com/waxy-tomb
 weight: 4
 ---

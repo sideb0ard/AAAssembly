@@ -1,7 +1,7 @@
 ---
 title: Marque Cornblatt
 date: 2018-12-27T15:12:19-08:00
-img: /imagez/speakers/marquecornblatt.jpg
+img: /2019/imagez/speakers/marquecornblatt.jpg
 weight: 13
 website: https://www.marquecornblatt.com/
 ---

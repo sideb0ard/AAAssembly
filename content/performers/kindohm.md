@@ -1,7 +1,7 @@
 ---
 title: "Kindohm"
 date: 2018-12-27T15:12:19-08:00
-img: "/imagez/performers/kindohm.jpg"
+img: "/2019/imagez/performers/kindohm.jpg"
 website: http://kindohm.com/
 weight: 6
 ---

@@ -1,0 +1,289 @@
+@font-face {
+    font-family: 'Heebo';
+    src: url('/fonts/heebo/Heebo-Regular.ttf');
+}
+@font-face {
+    font-family: 'Heebo Bold';
+    src: url('/fonts/heebo/Heebo-Bold.ttf');
+}
+
+body {
+    background-color: #FBEED9;
+    font-family: 'Heebo';
+}
+
+#content {
+    padding: 10px 25px 25px 25px;
+}
+
+.schedule-table td {
+    padding: 7px;
+    vertical-align: top;
+}
+
+section {
+    padding-top: 25px;
+}
+
+p {
+    margin-top: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 25px 5px 25px;
+}
+
+.header-child {
+    flex: 1;
+}
+
+.right-half {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5px;
+}
+
+footer {
+    padding: 25px;
+}
+
+.footer-logo img {
+    max-height: 35px;
+}
+
+.footer-logo-box {
+    padding-left: 20px;
+}
+
+#windy-art-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.windy-art img {
+    /* max-width: 600px; */
+    width: 100%;
+    height: auto;
+}
+
+#sponsors {
+    display: flex;
+    padding-top: 25px;
+    padding-right: 25px;
+    justify-content: flex-start;
+}
+
+
+.about {
+    display: flex;
+    width: 100%;
+    padding-top: 55px;
+}
+
+.about img {
+    /* max-width: 600px; */
+    width: 100%;
+    height: auto;
+}
+
+.about-child {
+    padding: 10px;
+    flex: 1;
+}
+
+.about a {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+.tabley-container {
+    width: 100%;
+    display: flex;
+    padding-top: 55px;
+    justify-content: space-between;
+}
+
+.schedule {
+    flex: 1;
+    padding-right: 35px;
+}
+
+.schedule-img {
+  	position: relative;
+    font-size: 140%;
+}
+
+.schedule-img .sched-img {
+    width: 100%;
+    height: auto;
+}
+
+.center {
+    margin: auto;
+}
+
+.schedule-img .sched-text {
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+
+}
+
+.white {
+    color: white;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.bio {
+    padding-top: 25px;
+    display: flex;
+}
+
+.bio-child {
+    flex: 1;
+}
+
+.bio-pic {
+}
+
+.bio-url {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.bio-pic img {
+    width: 100%;
+    height: auto;
+}
+
+.bio-text {
+    vertical-align: top;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.list-page {
+    padding-top: 55px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.list-item {
+    padding: 5px 5px 15px 5px;
+    flex: 1 0 21%;
+}
+
+.list-item img {
+    width: 100%;
+    height: auto;
+}
+
+.responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+.bold {
+    font-family: 'Heebo Bold';
+}
+
+.bigbold {
+    font-size: 190%;
+    font-family: 'Heebo Bold';
+}
+
+a {
+    color: #000;
+}
+
+.nae-underline {
+    text-decoration: none;
+}
+
+#title-text-A {
+    font-size: 317%;
+    /* font-size:4vw; */
+    font-weight: bold;
+    vertical-align: top;
+    line-height: 95%;
+    padding:0; margin:0;
+}
+
+#logo {
+    display: flex;
+    padding:0; margin:0;
+}
+
+#bigA {
+    max-height: 95px;
+    padding-right: 20px;
+}
+
+#links {
+    font-size: 125%;
+    line-height: 120%;
+    padding-right: 20px;
+}
+
+#description {
+    max-width: 50%;
+}
+
+@media (max-width: 700px) {
+  header {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+  .list-item img {
+      max-width: 100%;;
+  }
+  .list-page {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+  #logo {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+  #description {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    max-width: 300px;
+  }
+  #about {
+      padding-top: 5px;
+      flex-direction: column;
+  }
+  .bio {
+      padding-top: 5px;
+      flex-direction: column;
+  }
+  .bio-text {
+      padding-left: 0px;
+  }
+  .tabley-container {
+      padding-top: 5px;
+      flex-direction: column;
+  }
+  .right-half {
+      padding-top: 5px;
+      flex-direction: column;
+  }
+}

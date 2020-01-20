@@ -1,7 +1,7 @@
 ---
 title: W00dy
 date: 2018-12-27T15:12:19-08:00
-img: /imagez/performers/w00dy.jpg
+img: /2019/imagez/performers/w00dy.jpg
 website: https://w00dy.bandcamp.com/
 weight: 5
 ---

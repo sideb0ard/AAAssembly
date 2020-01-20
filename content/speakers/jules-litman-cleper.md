@@ -1,7 +1,7 @@
 ---
 title: Jules Litman-Cleper
 date: 2018-12-27T15:12:19-08:00
-img: /imagez/speakers/jules-litman-cleper.jpg
+img: /2019/imagez/speakers/jules-litman-cleper.jpg
 website: http://www.shapedthought.com/
 weight: 6
 ---

@@ -1,7 +1,7 @@
 ---
 title: Kit Clayton
 date: 2018-12-27T15:12:19-08:00
-img: /imagez/performers/kit-clayton.jpg
+img: /2019/imagez/performers/kit-clayton.jpg
 website: https://soundcloud.com/kitclayton
 weight: 3
 ---

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Workshops on Algorithmic Art Assembly</title>
+    <link>https://aaassembly.org/workshops/</link>
+    <description>Recent content in Workshops on Algorithmic Art Assembly</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 27 Dec 2018 15:13:23 -0800</lastBuildDate>
+    
+	<atom:link href="https://aaassembly.org/workshops/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Introtidal</title>
+      <link>https://aaassembly.org/workshops/introtidal/</link>
+      <pubDate>Thu, 27 Dec 2018 15:13:23 -0800</pubDate>
+      
+      <guid>https://aaassembly.org/workshops/introtidal/</guid>
+      <description>Mike Hodnick</description>
+    </item>
+    
+  </channel>
+</rss>

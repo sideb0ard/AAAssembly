@@ -1,7 +1,7 @@
 ---
 title: Adam Florin
 date: 2018-12-27T15:12:19-08:00
-img: "/imagez/speakers/adam-florin.jpg"
+img: "/2019/imagez/speakers/adam-florin.jpg"
 website: http://adamflorin.work
 weight: 10
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Sebastian Camens"
 date: 2018-12-27T15:12:19-08:00
-img: "/imagez/performers/sebastian-camens.jpg"
+img: "/2019/imagez/performers/sebastian-camens.jpg"
 website: https://www.sebastiancamens.com/
 weight: 9
 ---

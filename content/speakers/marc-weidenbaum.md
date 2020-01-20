@@ -1,7 +1,7 @@
 ---
 title: Marc Weidenbaum
 date: 2018-12-27T15:12:19-08:00
-img: /imagez/speakers/marc-weidenbaum.jpg
+img: /2019/imagez/speakers/marc-weidenbaum.jpg
 website: https://disquiet.com/
 weight: 9
 ---

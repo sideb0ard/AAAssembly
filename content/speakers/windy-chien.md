@@ -1,7 +1,7 @@
 ---
 title: Windy Chien
 date: 2018-12-27T15:12:19-08:00
-img: "/imagez/speakers/windy-chien.jpg"
+img: "/2019/imagez/speakers/windy-chien.jpg"
 website: http://www.windychien.com/
 weight: 1
 ---
@@ -17,9 +17,9 @@ Windy Chien makes art that activates space and elevates the vernacular. She is b
 Her work has been covered by Wired, Make:, The New York Times and Martha Stewart. In 2017, Facebook acquired an edition of The Year of Knots and her most recent installation resides at the National Geographic Society in Washington, DC. Windy’s book about her work will be published by Abrams in 2019.
 
 <div id="windy-art-container">
-<div class="windy-art"> <img src="/imagez/windy-art/windy-knots1.jpg"></div>
-<div class="windy-art"> <img src="/imagez/windy-art/windy-knots2.jpg"></div>
-<div class="windy-art"> <img src="/imagez/windy-art/windy-knots3.jpg"></div>
-<div class="windy-art"> <img src="/imagez/windy-art/windy-knots4.jpg"></div>
-<div class="windy-art"> <img src="/imagez/windy-art/windy-knots5.jpg"></div>
+<div class="windy-art"> <img src="/2019/imagez/windy-art/windy-knots1.jpg"></div>
+<div class="windy-art"> <img src="/2019/imagez/windy-art/windy-knots2.jpg"></div>
+<div class="windy-art"> <img src="/2019/imagez/windy-art/windy-knots3.jpg"></div>
+<div class="windy-art"> <img src="/2019/imagez/windy-art/windy-knots4.jpg"></div>
+<div class="windy-art"> <img src="/2019/imagez/windy-art/windy-knots5.jpg"></div>
 </div>

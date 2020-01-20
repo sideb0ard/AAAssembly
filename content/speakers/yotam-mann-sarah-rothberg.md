@@ -1,7 +1,7 @@
 ---
 title: Yotam Mann & Sarah Rothberg
 date: 2018-12-27T15:12:19-08:00
-img: /imagez/speakers/yotam-mann.jpg
+img: /2019/imagez/speakers/yotam-mann.jpg
 weight: 4
 website: https://yotammann.info/
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Spatial"
 date: 2018-12-27T15:12:19-08:00
-img: "/imagez/performers/spatial.jpg"
+img: "/2019/imagez/performers/spatial.jpg"
 website: http://spatial.infrasonics.net/
 weight: 14
 ---

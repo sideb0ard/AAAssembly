@@ -1,7 +1,7 @@
 ---
 title: "Digital Selves"
 date: 2018-12-27T15:12:19-08:00
-img: "/imagez/performers/digital-selves.jpg"
+img: "/2019/imagez/performers/digital-selves.jpg"
 website: "http://lwlsn.github.io"
 weight: 6
 ---

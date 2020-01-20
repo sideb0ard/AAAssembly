@@ -1,7 +1,7 @@
 ---
 title: Jon Leidecker
 date: 2018-12-27T15:12:19-08:00
-img: /imagez/speakers/jon-leidecker.jpg
+img: /2019/imagez/speakers/jon-leidecker.jpg
 weight: 7
 website: https://www.detritus.net/wobbly/
 ---

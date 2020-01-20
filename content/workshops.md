@@ -7,7 +7,7 @@ date: 2019-01-02T20:22:44-08:00
 
 <div class="schedule">
     <div class="schedule-img">
-        <img class="sched-img" src = "/imagez/AAA-cropped-part1.png">
+        <img class="sched-img" src = "/imagez/2019/AAA-cropped-part1.png">
         <div class="bold sched-text white">Friday, March 22nd 2019</div>
     </div>
     <div class="schedule-txt">
@@ -21,7 +21,7 @@ date: 2019-01-02T20:22:44-08:00
 
 <div class="schedule">
     <div class="schedule-img">
-        <img class="sched-img" src = "/imagez/AAA-cropped-part2.png">
+        <img class="sched-img" src = "/imagez/2019/AAA-cropped-part2.png">
         <div class="bold sched-text white">Saturday, March 23rd 2019</div>
     </div>
     <div class="schedule-txt">

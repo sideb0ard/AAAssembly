@@ -1,7 +1,7 @@
 ---
 title: "Renick Bell"
 date: 2018-12-27T15:12:19-08:00
-img: "/imagez/performers/renick-bell.jpg"
+img: "/2019/imagez/performers/renick-bell.jpg"
 website: https://renickbell.bandcamp.com/
 weight: 11
 ---

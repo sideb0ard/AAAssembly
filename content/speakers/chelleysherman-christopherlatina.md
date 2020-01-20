@@ -1,7 +1,7 @@
 ---
 title: Chelley Sherman & Christopher Latina
 date: 2018-12-27T15:12:19-08:00
-img: /imagez/speakers/chelleysherman.jpg
+img: /2019/imagez/speakers/chelleysherman.jpg
 weight: 5
 website: http://spaceisthe.place/
 ---

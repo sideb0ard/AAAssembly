@@ -1,7 +1,7 @@
 ---
 title: "Spednar"
 date: 2018-12-27T15:12:19-08:00
-img: "/imagez/performers/spednar.jpg"
+img: "/2019/imagez/performers/spednar.jpg"
 website: http://spednar.com/
 weight: 15
 ---
