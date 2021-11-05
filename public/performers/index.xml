@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Performers on Algorithmic Art Assembly</title>
@@ -6,11 +6,7 @@
     <description>Recent content in Performers on Algorithmic Art Assembly</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 27 Dec 2018 15:12:19 -0800</lastBuildDate>
-    
-	<atom:link href="https://aaassembly.org/performers/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 27 Dec 2018 15:12:19 -0800</lastBuildDate><atom:link href="https://aaassembly.org/performers/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Algobabez</title>
       <link>https://aaassembly.org/performers/algobabez/</link>
