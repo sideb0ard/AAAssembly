@@ -1,49 +1,85 @@
-var inc = 0.06;
-var scl = 10;
-var cols, rows;
+let gridModules = 20;
+const dotSize = 1;
+const timer = 4; // time between each new shape change, in seconds
+const easing = 0.09; // movement speed
+let margin = 10; // margin size (distance from edge of canvas)
 
-var zoff = 0;
-var fr;
+const background_color = "#2a2a2a"; 
+const intersection_color = "#F9481D";
+const dot_color = "#F8F2DB";
+const line_color = "#F8F2DB";
+const num_lines = 200;
+const line_width = 0.5;
 
-var particles = [];
-var flowfield;
+
+let polygon;
+let polygon2;
+
+function drawDotGrid() {
+  push();
+  noStroke();
+  let spacing = windowWidth / gridModules;
+  for (let y = 0; y < windowHeight; y += spacing) {
+    for (let x = 0; x < windowWidth; x += spacing) {
+      fill(dot_color);
+      ellipse(x, y, dotSize, dotSize);
+    }
+  }
+  pop();
+}
 
 function setup() {
-    createCanvas(600, 200);
-    cols = floor(width / scl);
-    rows = floor(width / scl);
-    mo_info = createP('Gray Area, San Francisco, March 22-23rd 2019');
+  createCanvas(windowWidth, windowHeight);
+  background(background_color);
 
-    flowfield = new Array(cols * rows);
+  gridModules = int((windowWidth / 7) / 5);
+  margin = int(gridModules * 0.5);
 
-    for (var i = 0; i < 100; i++) {
-        particles[i] = new Particle();
-    }
-    background(255);
+  console.log(
+    "grid = " + gridModules, 
+    "margin = " + margin
+  );
+
+  polygon = new Polygon();
+  polygon2 = new Polygon();
+
+  cursor(CROSS);
+  noStroke();
+  strokeCap(SQUARE);
+}
+
+function drawIntersection(polygon1, polygon2) {
+  let points = getInterceptionPoints(polygon1.cur_points, polygon2.cur_points);
+
+  noStroke();
+  fill(intersection_color);
+  beginShape();
+  points.forEach((p) => {
+    vertex(p.x, p.y);
+  });
+  endShape(CLOSE);
 }
 
 function draw() {
-    var yoff = 0;
-    for (var y = 0; y < rows; y++) {
-    var xoff = 0;
-        for (var x = 0; x < width; x++) {
-            var index = (x + y * cols);
-            var angle = noise(xoff, yoff, zoff) * TWO_PI * 4;
-            var v = p5.Vector.fromAngle(angle);
-            v.setMag(1);
-            flowfield[index] = v;
-            xoff += inc;
-            stroke(0, 50);
-        }
-        yoff += inc;
-        zoff += 0.0003;
-    }
+  background(background_color);
 
-    for (var i = 0; i < particles.length; i++)
-    {
-        particles[i].follow(flowfield);
-        particles[i].update();
-        particles[i].edges();
-        particles[i].show();
-    }
+  
+  polygon.update();
+  polygon.draw();
+
+  polygon2.update();
+  polygon2.draw();
+
+  drawIntersection(polygon, polygon2);
+
+  // drawDotGrid();
+
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}
+
+function mouseClicked() {
+  polygon.regenerate();
 }

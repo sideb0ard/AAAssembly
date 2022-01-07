@@ -1,32 +1,148 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-	<meta name="generator" content="Hugo 0.83.1" />
-    <title>Algorithmic Art Assembly!</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/css/2022/stylesheet.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
-    <script src="https://cdn.jsdelivr.net/npm/p5@1.4.0/lib/p5.js"></script>
+
+    <!-- Basic Page Needs
+      –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+      <meta charset="utf-8">
+      <title>Algorithmic Art Assembly!</title>
+      <meta name="description" content="">
+      <meta name="author" content="">
+
+      <!-- Mobile Specific Metas
+        –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- FONT
+          –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+          <!-- Google fonts -->
+          <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">  -->
+
+            <!-- CSS
+              –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+              <link rel="stylesheet" href="css/normalize.css">
+              <link rel="stylesheet" href="css/skeleton.css">
+              <style>
+html,
+body {
+  /* padding: 0;  */
+  /* margin: 0; */
+  font-family: Helvetica, Arial, sans-serif;
+  color: #F8F2DB;
+}
+    canvas {
+      width: 100%;
+      height: 100%;
+      display: block;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: -9999;
+    }
+    header {
+      max-width: 100%;
+      margin: 2.7rem;
+    }
+    h1 { font-weight: 100; }
+
+    /* Media Queries
+       –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+    /* Extra arge devices (extra large desktops, 1201px and up) */
+    @media (min-width: 1201px) {
+      h1 { font-size: 3rem; }
+    }
+
+    /* Medium devices (tablets, 481px and up) */
+    @media (min-width: 481px) {
+    }
+
+    /* Medium devices (small screens, laptops, 769px and up) */
+    @media (min-width: 769px) {
+    }
+
+    /* Large devices (large desktops, 1025px and up) */
+    @media (min-width: 1025px) {
+    }
+
+    /* Small devices (landscape phones, less than 480px) */
+    @media (max-width: 480px) {
+      h1 { font-size: 3rem; }
+    }
+
+    /* Medium devices (tablets, less than 768px) */
+    @media (max-width: 768px) {
+    }
+
+    /* Medium devices (small screens, laptops, less than 1024px) */
+    @media (max-width: 1024px) {
+    }
+    /* Large devices (desktops, large screens, less than 1200px) */
+    @media (max-width: 1200px) {
+    }
+              </style>
+
+              <!-- Favicon
+                –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+                <link rel="icon" type="image/png" href="images/favicon.png">
+
+                <!-- P5 Scripts
+                  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+                  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js" integrity="sha512-N4kV7GkNv7QR7RX9YF/olywyIgIwNvfEe2nZtfyj73HdjCUkAfOBDbcuJ/cTaN04JKRnw1YG1wnUyNKMsNgg3g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+                  <script src="polymath.js"></script>
+                  <script src="polygon.js"></script>
+                  <script src="sketch.js"></script>
+
   </head>
-  <body lang="en">
-    <div id="content" class="center bold center-text">
+  <body>
 
+    <!-- Primary Page Layout
+      –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+      <!-- <div class="container">
+        <div class="row">
+        <div class="one-half column" style="margin-top: 25%">
 
+        </div>
+        </div>
+        </div> -->
 
-<section>
-  Algorithmic Art Assembly -- San Francisco March 10th/11th/12th 2022. Gray Area.
+        <header>
+          <div class="two-thirds column">
+            <h1>
+              Algorithmic Art Assembly<br>March 10–11–12 2022<br>Gray Area, San Francisco<br><br>
+              Shader Park &bsol;
+              Ross Goodwin &bsol;
+              Chris Carlson &bsol;
+              Jamie Fenton &bsol;
+              Mark Fell &amp; Rian Treanor &bsol;
+              Hannah Davis &bsol;
+              Curtis Roads &bsol;
+              Spacefiller &bsol;
+              {arsonist} &bsol;
+              Trash Panda QC &bsol;
+              Myriam Bleau &bsol;
+              Rich DDT &bsol;
+              Phil Burk &bsol;
+              Amy Alexander &bsol;
+              Mauricio Rodriguez &bsol;
+              Jack Armitage &bsol;
+              Irwin/Miller &bsol;
+              Cassie Tarakajian &bsol;
+              Tom Hall &bsol;
+              Ellen Phan &bsol;
+              CNDSD &bsol;
+              Kindohm &bsol;
+              Richard Devine
+            </h1>
+          </div>
+        </header>
 
-  <script src="/js/matrix.js"></script>
-  <script src="/js/tesseract.js"></script>
-
-
-</section>
-
-
-</div>
-<footer>
-</footer>
-</body>
+        <!-- End Document
+          –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  </body>
 </html>
+
+
 
