@@ -4,7 +4,7 @@ const timer = 4; // time between each new shape change, in seconds
 const easing = 0.09; // movement speed
 let margin = 10; // margin size (distance from edge of canvas)
 
-const background_color = "#2a2a2a"; 
+const background_color = "#1a1a1a"; 
 const intersection_color = "#F9481D";
 const dot_color = "#F8F2DB";
 const line_color = "#F8F2DB";
