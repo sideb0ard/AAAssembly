@@ -1,0 +1,146 @@
+html,
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  color: #F8F2DB;
+  scroll-behavior: smooth;
+}
+canvas {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -9999;
+}
+body#info,
+body#info p,
+body#info h2 {
+  font-size: 1.8rem;
+  font-weight: 100;
+  letter-spacing: 0em;
+  line-height: 1.2;
+  text-align: left;
+  text-indent: 0em;
+  padding: 0;
+  text-transform: none;
+  font-style: normal;
+  text-decoration: none;
+  border-bottom: none;
+  background-color: #fff;
+}
+body#info h1 {  color: #1a1a1a; }
+body#info p.red { color: #F9481D; }
+body#info p.black { color: #1a1a1a; }
+body#info p,
+body#info h2,
+body#info span {
+  color: #a3a3a3;
+  line-height: 2.25rem;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+body#info a,
+body#info a:visited,
+body#info a:link {
+  color: #F9481D;
+  text-decoration: none;
+}
+body#info a:hover { text-decoration: underline; }
+
+body#bio { background: #1a1a1a; }
+
+a,a:visited,a:link {
+  color: #F8F2DB;
+  text-decoration: none;
+}
+a:hover { text-decoration: underline; }
+
+#tixlink { color:#F9E931; }
+
+header {
+  max-width: 100%;
+  margin: 2.7rem;
+}
+
+h1, p { font-weight: 100; }
+p {
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+}
+hr {
+  margin: 0.4rem 0 0.5rem 0;
+  border: none;
+  height: 1px;
+  color: #1a1a1a; /* old IE */
+  background-color: #1a1a1a; /* Modern Browsers */
+}
+.tab { text-indent:40px; }
+.responsive_img {
+  max-width: 100%;
+  height: auto;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-bio {
+  flex: 1;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-right: 25px;
+}
+
+
+/* Media Queries
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* Extra arge devices (extra large desktops, 1201px and up) */
+@media (min-width: 1201px) {
+  h1 { font-size: 3rem; }
+  body#info h1 {
+    font-size: 2rem;
+  }
+}
+
+/* Medium devices (tablets, 481px and up) */
+@media (min-width: 481px) {
+}
+
+/* Medium devices (small screens, laptops, 769px and up) */
+@media (min-width: 769px) {
+}
+
+/* Large devices (large desktops, 1025px and up) */
+@media (min-width: 1025px) {
+}
+
+/* Small devices (landscape phones, less than 480px) */
+@media (max-width: 480px) {
+  h1 { font-size: 3rem; }
+  body#info h1 {
+    font-size: 2rem;
+  }
+  body#info p {
+    color: #6d6d6d;
+  }
+}
+
+/* Medium devices (tablets, less than 768px) */
+@media (max-width: 768px) {
+  .flex-container {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+
+}
+
+/* Medium devices (small screens, laptops, less than 1024px) */
+@media (max-width: 1024px) {
+}
+/* Large devices (desktops, large screens, less than 1200px) */
+@media (max-width: 1200px) {
+}
+

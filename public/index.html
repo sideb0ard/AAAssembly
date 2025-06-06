@@ -1,108 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
 
-    <!-- Basic Page Needs
-      –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-      <meta charset="utf-8">
-      <title>Algorithmic Art Assembly!</title>
-      <meta name="description" content="">
-      <meta name="author" content="">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Algorithmic Art Assembly 2026</title>
+  <style>
+    body {
+      background-color: black;
+      color: white;
+      font-family: sans-serif;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      position: relative;
+      /* To position the menu relative to the body */
+    }
 
-      <!-- Mobile Specific Metas
-        –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+    .main-text {
+      font-size: 2em;
+      text-align: center;
+    }
 
-        <!-- FONT
-          –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-          <!-- Google fonts -->
-          <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
-            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-            <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">  -->
+    .hamburger-menu {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      width: 30px;
+      height: 21px;
+      cursor: pointer;
+      z-index: 10;
+      /* Ensure it's above the menu items */
+    }
 
-            <!-- CSS
-              –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-              <link rel="stylesheet" href="css/normalize.css">
-              <link rel="stylesheet" href="css/skeleton.css">
-              <link rel="stylesheet" href="css/AAA22-stylesheet.css">
+    .bar {
+      width: 100%;
+      height: 3px;
+      background-color: white;
+      transition: 0.3s;
+      /* For smooth animation */
+    }
 
-              <!-- Favicon
-                –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-                <link rel="icon" type="image/png" href="images/favicon.png">
+    .menu-items {
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-color: black;
+      width: 200px;
+      height: 100vh;
+      /* Cover the whole viewport */
+      padding-top: 60px;
+      /* To make space for the hamburger */
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      transform: translateX(-200px);
+      /* Initially hidden off-screen */
+      transition: transform 0.3s ease-in-out;
+      /* Smooth slide-in/out */
+    }
 
-                <!-- P5 Scripts
-                  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-                  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js" integrity="sha512-N4kV7GkNv7QR7RX9YF/olywyIgIwNvfEe2nZtfyj73HdjCUkAfOBDbcuJ/cTaN04JKRnw1YG1wnUyNKMsNgg3g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-                  <script src="polymath.js"></script>
-                  <script src="polygon.js"></script>
-                  <script src="sketch.js"></script>
+    .menu-items.open {
+      transform: translateX(0);
+      /* Slide in when open class is added */
+    }
 
-  </head>
-  <body>
+    .menu-items a {
+      color: white;
+      text-decoration: none;
+      padding: 15px 20px;
+      width: 100%;
+      box-sizing: border-box;
+    }
 
-    <!-- Primary Page Layout
-      –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-      <!-- <div class="container">
-        <div class="row">
-        <div class="one-half column" style="margin-top: 25%">
+    .menu-items a:hover {
+      background-color: #333;
+    }
 
-        </div>
-        </div>
-        </div> -->
+    /* Styles for the "X" close button */
+    .hamburger-menu.open .bar:nth-child(1) {
+      transform: rotate(-45deg) translate(-6px, 5px);
+    }
 
-        <header>
-          <div class="two-thirds column">
-            <h1>
-              <a href="/">Algorithmic Art Assembly, San Francisco</a>
-              <br>
-              March 10–11–12 2022
-              <br>
-              <a id="tixlink" href="https://grayarea.org/event/algorithmic-art-assembly-2022/" target="_window">+-- Info + Tickets --+</a>
-              <br>
-            </h1>
-            <h1 id="artists">
-              Thursday 10th March -- Algorave!<br>
-              <a href="bios/rich_ddt.html">Rich DDT</a> &bsol;
-              <a href="bios/d0n.html">d0n.xyz</a> &bsol;
-              <a href="bios/avclub.html">A/V Club</a> &bsol;
-              <a href="bios/ivanabreu.html">Iván Abreu</a> &bsol;
-              <a href="bios/clilly.html">C.Lilly</a> &bsol;
-              <a href="bios/luisamei.html">LuisaMei</a> x <a href="bios/charstiles.html">Char Stiles</a>&bsol;
-              <a href="bios/spednar.html">Spednar</a> &bsol;
-              <a href="bios/fields.html">William Fields</a>
-              <br><br>
-              Friday 11th March<br>
-              <a href="bios/shader.html">Shader Park</a> &bsol;
-              <a href="bios/carlson.html">Chris Carlson</a> &bsol;
-              <a href="bios/fell.html">Mark Fell, Rian Treanor &amp; James Bradbury</a> &bsol;
-              <a href="bios/alexander.html">Amy Alexander</a> &bsol;
-              <a href="bios/hayes.html">Lauren Sarah Hayes</a> &bsol;
-              <a href="bios/bischoff.html">John Bischoff</a> &bsol;
-              <a href="bios/spacefiller.html">SPACEFILLER with Mick Marchan</a> &bsol;
-              <a href="bios/arsonist.html">{arsonist}</a> &bsol;
-              <a href="bios/trash.html">Trash Panda QC</a> &bsol;
-              <a href="bios/bleau.html">Myriam Bleau</a>
-              <br><br>
-              Saturday 12th March<br>
-              <a href="bios/fields.html">William Fields</a> &bsol;
-              <a href="bios/burk.html">Phil Burk</a> &bsol;
-              <a href="bios/barcelona.html">Barcelona AAA node w/ the Intelligent Instruments Lab</a> &bsol;
-              <a href="bios/francis.html">RM Francis</a> &bsol;
-              <a href="bios/phan.html">Ellen Phan</a> &bsol;
-              <a href="bios/tarakajian.html">Cassie Tarakajian</a> &bsol;
-              <a href="bios/hall.html">Tom Hall</a> &bsol;
-              <a href="bios/goodwin.html">Ross Goodwin</a> &bsol;
-              <a href="bios/cndsd.html">CNDSD</a> &bsol;
-              <a href="bios/kindohm.html">Kindohm</a> &bsol;
-              <a href="bios/devine.html">Richard Devine</a>
-            </h1>
-          </div>
-        </header>
+    .hamburger-menu.open .bar:nth-child(2) {
+      opacity: 0;
+    }
 
-        <!-- End Document
-          –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  </body>
+    .hamburger-menu.open .bar:nth-child(3) {
+      transform: rotate(45deg) translate(-6px, -5px);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="hamburger-menu" onclick="toggleMenu()">
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+  </div>
+
+  <div class="menu-items" id="menuItems">
+    <a href="#">About</a>
+    <a href="2019/">2019</a>
+    <a href="2022/">2022</a>
+  </div>
+
+  <div class="main-text">
+    Algorithmic Art Assembly 2026
+  </div>
+
+  <script>
+    const hamburgerMenu = document.querySelector('.hamburger-menu');
+    const menuItems = document.getElementById('menuItems');
+
+    function toggleMenu() {
+      menuItems.classList.toggle('open');
+      hamburgerMenu.classList.toggle('open'); // Toggle the 'open' class on the hamburger too for the "X" effect
+    }
+  </script>
+</body>
+
 </html>
-
-
-
