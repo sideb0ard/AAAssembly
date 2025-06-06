@@ -1,0 +1,106 @@
+@font-face {
+  font-family: 'Open Sans Variable Italic';
+  src: url('fonts/OpenSans-Italic-VariableFont_wdth,wght.ttf') format('truetype-variations');
+  font-weight: 300 800;
+
+  font-stretch: 75% 125%;
+
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans Variable';
+  src: url('fonts/OpenSans-VariableFont_wdth,wght.ttf') format('truetype-variations');
+  font-weight: 300 800;
+  font-stretch: 75% 125%;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Open Sans Variable', sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  position: relative;
+}
+
+.main-text {
+  font-size: 2em;
+  text-align: center;
+}
+
+.hamburger-menu {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 30px;
+  height: 21px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.bar {
+  width: 100%;
+  height: 3px;
+  background-color: white;
+  transition: 0.3s;
+  /* For smooth animation */
+}
+
+.menu-items {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: black;
+  width: 200px;
+  height: 100vh;
+  /* Cover the whole viewport */
+  padding-top: 60px;
+  /* To make space for the hamburger */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  transform: translateX(-200px);
+  /* Initially hidden off-screen */
+  transition: transform 0.3s ease-in-out;
+  /* Smooth slide-in/out */
+}
+
+.menu-items.open {
+  transform: translateX(0);
+  /* Slide in when open class is added */
+}
+
+.menu-items a {
+  color: white;
+  text-decoration: none;
+  padding: 15px 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.menu-items a:hover {
+  background-color: #333;
+}
+
+/* Styles for the "X" close button */
+.hamburger-menu.open .bar:nth-child(1) {
+  transform: rotate(-45deg) translate(-6px, 5px);
+}
+
+.hamburger-menu.open .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger-menu.open .bar:nth-child(3) {
+  transform: rotate(45deg) translate(-6px, -5px);
+}
