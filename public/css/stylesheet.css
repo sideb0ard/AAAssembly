@@ -23,20 +23,71 @@ body {
   color: white;
   font-family: 'Open Sans Variable', sans-serif;
   margin: 0;
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; */
+  position: relative;
+  overflow: hidden;
+}
+
+#p5-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+}
+
+canvas {
+  display: block;
+}
+
+#all-content-wrapper {
   position: relative;
+  /* Crucial: Establishes a new stacking context */
+  z-index: 1;
+  /* This ensures it sits above #p5-background */
+  min-height: 100vh;
+  /* Make sure it's at least the height of the viewport */
+  width: 100vw;
+  /* Make sure it's at least the width of the viewport */
+  /* Add padding or other styles to space out your content from the edges */
+  padding-top: 20px;
+  /* Example padding */
+  box-sizing: border-box;
+  /* Include padding in dimensions */
+
+  /* If you want to center all your content, you can add flexbox here */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .main-text {
   font-size: 2em;
   text-align: center;
+  position: relative;
+  z-index: 1;
+  color: white;
+}
+
+.about-text {
+  font-size: 1.25em;
+  text-align: left;
+  margin: 100px;
+  color: white;
 }
 
 .hamburger-menu {
-  position: absolute;
+  /* position: absolute; */
+  position: fixed;
   top: 20px;
   left: 20px;
   display: flex;
@@ -45,7 +96,8 @@ body {
   width: 30px;
   height: 21px;
   cursor: pointer;
-  z-index: 10;
+  z-index: 100;
+  transition: transform 0.3s ease-in-out, left 0.3s ease-in-out;
 }
 
 .bar {
@@ -57,10 +109,12 @@ body {
 }
 
 .menu-items {
-  position: absolute;
+  /* position: absolute; */
+  position: fixed;
   top: 0;
   left: 0;
-  background-color: black;
+  /* background-color: black; */
+  background-color: rgba(0, 0, 0, 0.9);
   width: 200px;
   height: 100vh;
   /* Cover the whole viewport */
@@ -73,6 +127,7 @@ body {
   /* Initially hidden off-screen */
   transition: transform 0.3s ease-in-out;
   /* Smooth slide-in/out */
+  z-index: 11;
 }
 
 .menu-items.open {
@@ -103,4 +158,26 @@ body {
 
 .hamburger-menu.open .bar:nth-child(3) {
   transform: rotate(45deg) translate(-6px, -5px);
+}
+
+a:link {
+  color: #00BCD4;
+  /* Aqua */
+  text-decoration: none;
+}
+
+a:visited {
+  color: #8BC34A;
+  /* Lime Green */
+}
+
+a:hover {
+  color: #00E5FF;
+  /* Lighter Aqua on hover */
+  text-decoration: underline;
+}
+
+.secondary-text {
+  color: #B0BEC5;
+  /* Light grey blue for subtle details */
 }

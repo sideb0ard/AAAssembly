@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Algorithmic Art Assembly 2026</title>
+  <link rel="stylesheet" href="/css/stylesheet.css">
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.9.2/lib/p5.js"></script>
+</head>
+
+<body>
+  <div id="p5-background"></div>
+
+  <div id="all-content-wrapper">
+    <div class="hamburger-menu" onclick="toggleMenu()">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+
+    <div class="menu-items" id="menuItems">
+      <a href="/">Home</a>
+      <a href="2019/">2019</a>
+      <a href="2022/">2022</a>
+      <a target="_blank" href="https://www.youtube.com/algorithmicartassembly/">YouTube</a>
+    </div>
+
+    <div class="about-text">
+      <p>Algorithmic Art Assembly is a conference and music festival that showcases artists who utilize algorithmic tools and processes in their creative works. Based in San Francisco, it brings together a diverse range of artists exploring various forms of algorithmic art, including:</p>
+
+
+      <p>Live coding visuals and music: Performers write and manipulate code in real-time to generate sounds and images, often projecting their code for the audience to see.<br>
+        Virtual reality and gaming: Artists use algorithms to create immersive and interactive experiences.<br>
+        Augmented tooling: Exploring how algorithms can enhance existing creative tools.<br>
+        Generative music composition: Creating music through algorithmic rules and processes.<br>
+        Traditional art forms with algorithmic principles: Even practices like knot tying, when approached with a systematic, rule-based method, can be seen through an algorithmic lens.<br>
+      </p>
+
+      <p>The event spans day and evening with talks, demos and live performances.</p>
+
+      <p>Daytime talks and demonstrations: Artists present and explain their algorithmic art practices.<br>
+        Workshops: Opportunities for attendees to learn how to create live-coded music using platforms like SuperCollider and TidalCycles.<br>
+        Evening performances: 8 channel immersive sound system for the ultimate listening experience!<br>
+
+      <p>Algorithmic Art Assembly celebrates the use of algorithms for aesthetic purposes, pushing the boundaries of creativity in the digital age and beyond. It highlights how detailed sets of rules, whether coded or conceptual, can generate intricate and innovative artistic outcomes.</p>
+    </div>
+  </div>
+
+  <script>
+    const hamburgerMenu = document.querySelector('.hamburger-menu');
+    const menuItems = document.getElementById('menuItems');
+
+    function toggleMenu() {
+      menuItems.classList.toggle('open');
+      hamburgerMenu.classList.toggle('open'); // Toggle the 'open' class on the hamburger too for the "X" effect
+    }
+  </script>
+  <script src="sketch.js"></script>
+</body>
+
+</html>
