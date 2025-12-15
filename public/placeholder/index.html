@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Algorithmic Art Assembly 2026</title>
+  <link rel="stylesheet" href="/css/stylesheet.css">
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.9.2/lib/p5.js"></script>
+</head>
+
+<body>
+  <div id="p5-background"></div>
+
+  <div id="all-content-wrapper">
+    <div class="hamburger-menu initial-position" onclick="toggleMenu()">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+
+    <div class="menu-items" id="menuItems">
+      <a href="about.html">About</a>
+      <a href="2019/">2019</a>
+      <a href="2022/">2022</a>
+      <a target="_blank" href="https://www.youtube.com/algorithmicartassembly/">YouTube</a>
+    </div>
+    <div class="main-text">
+      AAAssembly 3</br><a target="_blank" href="https://grayarea.org/">Gray Area</a>, San Francisco<br>March 26-28th 2026
+    </div>
+  </div>
+
+  <script>
+    const hamburgerMenu = document.querySelector('.hamburger-menu');
+    const menuItems = document.getElementById('menuItems');
+
+    function toggleMenu() {
+      menuItems.classList.toggle('open');
+      hamburgerMenu.classList.toggle('open');
+    }
+  </script>
+  <script src="sketch.js"></script>
+</body>
+
+</html>

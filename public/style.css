@@ -71,7 +71,7 @@ a:hover {
 
 /* Info text (new block) */
 .info-text {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 300;
   line-height: 1.4;
   color: #e7e7e7;
@@ -101,7 +101,7 @@ a:hover {
 
 /* List grid — dynamic columns based on available space */
 .list-grid {
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   line-height: 1.35;
   color: #e7e7e7;
 }
@@ -217,5 +217,110 @@ a:hover {
   .date-svg {
     width: 90%; /* Slightly smaller on mobile */
     max-width: 100%;
+  }
+}
+
+/* Modal styles */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(16, 38, 40, 0.95);
+  backdrop-filter: blur(5px);
+}
+
+.modal-content {
+  background-color: #102628;
+  margin: 10% auto;
+  padding: 40px;
+  border: 2px solid #11c647;
+  width: 80%;
+  max-width: 600px;
+  border-radius: 0;
+  color: #e7e7e7;
+  font-family: 'Oswald', sans-serif;
+  position: relative;
+}
+
+.modal-content h2 {
+  font-size: 3rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: #11c647;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.modal-content p {
+  font-size: 1.7rem;
+  line-height: 1.6;
+  font-weight: 300;
+  margin-bottom: 20px;
+  white-space: pre-line;
+}
+
+.modal-content a {
+  color: #11c647;
+  text-decoration: none;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.modal-content a:hover {
+  text-decoration: underline;
+}
+
+.close {
+  color: #11c647;
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 2.5rem;
+  font-weight: 300;
+  cursor: pointer;
+  line-height: 1;
+  transition: color 0.2s;
+}
+
+.close:hover,
+.close:focus {
+  color: #e7e7e7;
+}
+
+.list-grid li a {
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.list-grid li a:hover {
+  color: #11c647;
+}
+
+/* Mobile modal adjustments */
+@media (max-width: 700px) {
+  .modal-content {
+    width: 90%;
+    margin: 20% auto;
+    padding: 30px;
+  }
+
+  .modal-content h2 {
+    font-size: 2.2rem;
+  }
+
+  .modal-content p {
+    font-size: 1.4rem;
+  }
+
+  .close {
+    top: 15px;
+    right: 20px;
+    font-size: 2rem;
   }
 }
