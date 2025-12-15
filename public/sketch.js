@@ -5,13 +5,15 @@ class FlowField {
     this.resize();
     this.r = 6;
   }
+
   display() {
     stroke(0, 125, 0);
-    //fill(100, 255, 0);
-    noFill();
+    let midy = Math.floor(this.rows / 2);
+    let midx = Math.floor(this.cols / 2);
     for (let y = 0; y < this.rows; y++) {
       for (let x = 0; x < this.cols; x++) {
         let angle = this.field[y][x].heading();
+        noFill();
         push();
         translate(x * resolution, y * resolution);
         rotate(angle);
@@ -21,29 +23,28 @@ class FlowField {
         vertex(-this.r * 2, this.r);
         endShape(CLOSE);
         pop();
+        this.field[y][x].rotate(0.01);
       }
     }
+
   }
+
   resize() {
-    noiseSeed(random(1000));
+
     this.cols = floor(width / resolution);
     this.rows = floor(height / resolution);
     this.field = new Array(this.cols);
     for (let i = 0; i < this.rows; i++) {
       this.field[i] = new Array(this.cols);
     }
-    let xoff = 0;
+
     for (let i = 0; i < this.rows; i++) {
-      let yoff = 0;
       for (let j = 0; j < this.cols; j++) {
-        let angle = map(noise(xoff, yoff), 0, 1, 0, TWO_PI);
-        //this.field[i][j] = p5.Vector.random2D();
-        //this.field[i][j] = createVector(1, 0);
-        // this.field[i][j] = createVector(i * i, j);
-        this.field[i][j] = p5.Vector.fromAngle(angle);
-        yoff += 0.01;
+        let x = j * width / this.cols;
+        let y = i * height / this.rows;
+        this.field[i][j] = createVector(width / 2 - x, height / 2 - y);
+        this.field[i][j].rotate(PI / 2);
       }
-      xoff += 0.01;
     }
   }
 }
@@ -58,9 +59,6 @@ function setup() {
 
 function draw() {
   background(0);
-  if (frameCount % 10 == 0) {
-    flow_field.resize();
-  }
   flow_field.display();
   //noLoop();
 }

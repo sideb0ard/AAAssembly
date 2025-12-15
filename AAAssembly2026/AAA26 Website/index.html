@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Layout with SVGs & p5.js</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.min.js"></script>
+  <script src="https://unpkg.com/p5.js-svg@1.5.1"></script>
+  <script src="p5artwork.js" defer></script>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <!-- LEFT COLUMN -->
+    <div class="left-column">
+
+      <img src="assets/title.svg" alt="Title" class="title-svg" />
+
+      <div class="spacer"></div>
+
+      <img src="assets/date.svg" alt="Date" class="date-svg" />
+
+
+      <div class="info-text">
+        <p>Talks, Workshops & Performances.<br>
+          <span class="green">GRAY AREA / GRAND THEATER, SAN FRANCISCO, CA.</span>
+        </p>
+      </div>
+
+      <!-- NEW LIST SECTION -->
+      <div class="list-grid">
+        <ul>
+          <li><a href="#">Mike Hodnick</a></li>
+          <li><a href="#">Nathan Ho</a></li>
+          <li><a href="#">William Fields</a></li>
+          <li><a href="#">Wolff Parkinson White</a></li>
+          <li><a href="#">R Tyler</a></li>
+          <li><a href="#">Kara-Lis Coverdale</a></li>
+          <li><a href="#">DELI KUVVETI</a></li>
+          <li><a href="#">tsrono</a></li>
+          <li><a href="#">Luisa Mei</a></li>
+          <li><a href="#">Char Stiles</a></li>
+          <li><a href="#">Carl Lostritto + Catty</a></li>
+          <li><a href="#">Dan Zhang</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">Char Stiles</a></li>
+          <li><a href="#">Claire L Evans</a></li>
+          <li><a href="#">Tom Hall</a></li>
+          <li><a href="#">Sarah GHP</a></li>
+          <li><a href="#">Keith Fullerton Whitman</a></li>
+          <li><a href="#">c_robo_</a></li>
+          <li><a href="#">Madalyne Merkie</a></li>
+          <li><a href="#">nnirror</a></li>
+          <li><a href="#">Codie</a></li>
+          <li><a href="#">Chia Amisola</a></li>
+          <li><a href="#">Ruaridh Law</a></li>
+          <li><a href="#">Entropic + AntonTesh</a></li>
+        </ul>
+      </div>
+
+      <div class="logos">
+        <img src="assets/gray_area_logo.svg" alt="Gray Area" />
+        <img src="assets/hpll_logo.svg" alt="HPLL" />
+      </div>
+
+    </div>
+
+    <div class="right-column">
+      <div id="p5-container">
+      </div>
+
+    </div>
+
+  </div>
+
+</body>
+
+</html>
