@@ -2,116 +2,146 @@
   {
     "name": "Carl Lostritto",
     "bio": "Carl Lostritto writes code to control vintage pen-plotters, producing algorithmic drawings that probe computation's relationship to material reality. Two decades of iterative experiments with custom tools and drawing machines. Author of Computational Drawing and Impossible and Hyper-Real Elements of Architecture. MIT Design and Computation.",
-    "website": "https://archdesign.utk.edu/directory/carl-lostritto/"
+    "website": "https://archdesign.utk.edu/directory/carl-lostritto/",
+    "image": "img/CarlLostritto.jpg"
   },
   {
     "name": "Catty Dan Zhang",
     "bio": "Catty Dan Zhang architects fluid environments from air, smoke, images, and objects. Her installations map mobile relationships between structures, bodies, and planetary systems. Founder of Temporary Office. Author of Pamphlet Architecture 37.",
-    "website": "https://archdesign.utk.edu/directory/catty-dan-zhang/"
+    "website": "https://archdesign.utk.edu/directory/catty-dan-zhang/",
+    "image": "img/CattyDanZhang.jpg"
   },
   {
     "name": "Char Stiles",
     "bio": "Char Stiles works in the lower levels of graphical computational systems, making jokes about how computers work. MIT Media Lab Future Sketches researching the future of creative coding. Livecode.nyc collective, co-founder of Hex House. Performed at Electric Forest, Portola, and Mutek Nexus.",
-    "website": "https://charstiles.com/"
+    "website": "https://charstiles.com/",
+    "image": "img/charstyles.jpg"
   },
   {
     "name": "Chia Amisola",
     "bio": "Chia Amisola investigates technology's intimacies and infrastructures through websites, hypertexts, and games. Their work maps ambience, agency, and apparitions—exploring the internet's loss, love, labor, and liberation. Founded Developh, stewarding critical tech practice in Southeast Asia. Curated Filipino net art exhibition KAKAKOMPYUTER MO YAN! Senior Product Designer at Figma.",
-    "website": "https://chia.design/"
+    "website": "https://chia.design/",
+    "image": "img/ChiaAmisola.jpg"
   },
   {
     "name": "Claire L Evans",
     "bio": "Claire L. Evans traces technology's cultural lineage through music, writing, and games. Singer of Grammy-nominated YACHT. Author of Broad Band: The Untold Story of the Women Who Made the Internet. Co-producer of experimental video game Blippo+ for Playdate and Switch. Co-founded VICE's speculative fiction imprint Terraform.",
-    "website": "https://clairelevans.com/"
+    "website": "https://clairelevans.com/",
+    "image": "img/ClaireLEvans.jpg",
+    "photoCredit": "Photo Credit: Alexa Viscius"
   },
   {
     "name": "Codie",
     "bio": "Codie is a live-coding trio—Kate Sicchio, Sarah Groff Hennigh-Palermo, and Melody Loveless—creating dancey electronic sounds and SoCal graphics in real time. Sarah codes visuals with custom Clojurescript-Electron app La Habra. Kate manipulates samples through algorithms in Ruby-based Sonic Pi. They improvise together, projecting code live per the Live Coding Draft Manifesto. Performed globally at Algoraves, conferences, and galleries.",
-    "website": "https://codie.live/"
+    "website": "https://codie.live/",
+    "image": "img/codie.jpg"
   },
   {
     "name": "c_robo_",
     "bio": "c_robo_ makes electronic music in Los Angeles. He's interested in pushing the laptop interface in a live performance context.",
-    "website": "https://c-robo.bandcamp.com/"
+    "website": "https://c-robo.bandcamp.com/",
+    "image": "img/c_robo.jpg"
   },
   {
     "name": "Daniel Temkin",
     "bio": "Daniel Temkin designs programming languages as art exploring logic and irrationality. His book Forty-Four Esolangs (MIT Press) is the first artist's monograph of esolangs—code as prayer, patterns of empty folders, tandem typing. Created esoteric.codes blog. ZKM exhibited his work in Open Codes. Exhibited at Museum of the Moving Image and Buffalo AKG Museum.",
-    "website": "https://danieltemkin.com/"
+    "website": "https://danieltemkin.com/",
+    "image": "img/danieltemkin.jpg"
   },
   {
     "name": "DELI KUVVETI",
     "bio": "Deli Kuvveti bends time and stretches vortices, seeking wrong sounds through right methods. Microtonal tension and irreducible ambiguity sourced from the distance between Seattle and Turkey's Aegean coast. Time-stretched processing, flat angst, metathought in bursts.",
-    "website": "https://delikuvveti.bandcamp.com/"
+    "website": "https://delikuvveti.bandcamp.com/",
+    "image": "img/DeliKuvveti.jpg"
   },
   {
     "name": "Gábor Lázár",
     "bio": "Gábor Lázár maps club music to avant-garde through electronic systems and music technology. Decade of critically acclaimed albums on Raster-Media, Planet Mu, and Shelter Press. Immersive audiovisual performances at CTM Berlin, Berlin Atonal, MUTEK, and Unsound. Hungarian artist shaping computer music culture.",
-    "website": "https://gaborlazar.com/"
+    "website": "https://gaborlazar.com/",
+    "image": "img/gabor_lazar.jpg"
   },
   {
     "name": "Kara-Lis Coverdale",
     "bio": "Kara-Lis Coverdale composes across acoustic and electronic systems, mapping sonic afterlife and memory through interlocking musical languages. Borderless navigator of the digital frontier. The Guardian calls her 'one of the most exciting composers in North America.' Immersive, tunable listening worlds.",
-    "website": "https://www.kara-liscoverdale.com/"
+    "website": "https://www.kara-liscoverdale.com/",
+    "image": "img/kara_lis_coverdale.jpg"
   },
   {
     "name": "Keith Fullerton Whitman",
     "bio": "Keith Fullerton Whitman builds self-sustaining musical frameworks from primitive analogue-computing concepts and contemporary sound-tools. Early software-based micro-sequencing and generative rhythms as Hrvatski. Projects Generators, Occlusions, and Redactions. Repeat commissions from GRM for Acousmonium diffusion. Musique Concrète lineage.",
-    "website": "https://keithfullertonwhitman.com/"
+    "website": "https://keithfullertonwhitman.com/",
+    "image": "img/keith_fullerton.jpg"
   },
   {
     "name": "Kindohm",
     "bio": "Kindohm sequences sharp synthesis and drums through stacks of TidalCycles pattern code. Bruisingly complex, alluringly minimal algorithmic electronic music. Performed internationally at Algoraves and International Conference on Live Coding.",
-    "website": "http://kindohm.com/"
+    "website": "http://kindohm.com/",
+    "image": "img/mike_hodnick.jpg"
   },
   {
     "name": "Luisa Mei",
     "bio": "Luisa Mei codes music in SuperCollider, drawing from classical composition, mathematics, and natural systems. Piano and algorithms balanced between extreme precision and complete chaos. Saranac Lake, NY.",
-    "website": "https://luisamei.bandcamp.com/"
+    "website": "https://luisamei.bandcamp.com/",
+    "image": "img/luisa_mei.jpg"
+  },
+  {
+    "name": "Lee Tusman",
+    "bio": "Lee Tusman channels collective and DIY ethos into experimental games, websites, bots, installations, and micro-power radio—code, collage, sound, and text across digital culture. Hosts Artists and Hackers podcast on art, code and community. Co-founded Processing Community Day NYC, organized with Babycastles amplifying diverse voices in videogame culture. Member of Flux Factory. MFA UCLA Design Media Arts.",
+    "website": "https://leetusman.com/",
+    "image": "img/leetusman.jpg"
   },
   {
     "name": "Nathan Ho",
     "bio": "Nathan Ho produces electronic music ex nihilo in SuperCollider—no samples, no recorded instruments—using custom algorithms for synthesis and composition. Contemporary classical armed with glitch, breakcore, and bass music techniques. Releases on tokinogake and EVEL Records. Documents his DSP processes extensively.",
-    "website": "https://nathan.ho.name/"
+    "website": "https://nathan.ho.name/",
+    "image": "img/nathan_ho.jpg"
   },
   {
     "name": "nnirror",
     "bio": "nnirror is Michael Cella, developing open-ended software tools for generative music. Custom live-coding system Facet navigates chaos and coherence in real time. Igloo Mag: 'pushing the limits of complexity.' Detroit-based artist and software developer. Releases on EVEL, 3OP, and Tokinogake.",
-    "website": "https://www.nnirror.xyz/"
+    "website": "https://www.nnirror.xyz/",
+    "image": "img/nnirror.jpg"
   },
   {
     "name": "R Tyler",
     "bio": "R Tyler livecodes algorithmic dance music with TidalCycles, vim, and Strudel augmented by custom Python for sound design, microtonality, and rhythm enumeration. Multi-layered club sets tell sci-fi stories through code. Album rsync showcases maximalist, unorthodox tracks. Performed at ICLC Shanghai, SXSW, and Gray Area Festival.",
-    "website": "https://rtyler.bandcamp.com/"
+    "website": "https://rtyler.bandcamp.com/",
+    "image": "img/rtyler.jpg"
   },
   {
     "name": "Ruaridh Law",
     "bio": "Ruaridh Law builds unusual paradigms for performance and composition—tarot decks generating music, data visualizations mapping human voices to stories. 20+ years of sound installations, experimental storytelling, and improvised performance across Scotland. Runs record labels and No Roof Only Sky press. North Ayrshire.",
-    "website": "https://ruaridhlaw.com/"
+    "website": "https://ruaridhlaw.com/",
+    "image": "img/ruaridhlaw.jpg"
   },
   {
     "name": "Sebastian Camens",
-    "bio": "Sebastian Camens renders 3D objects into sound and physical artifacts. Seattle-based multidisciplinary artist releasing on NADA and Conditional. Album Asymmetry manifested as digital audio and 3D-printed wall clock. 10+ years shaping computational forms. Communication Design, Monash University.",
-    "website": "https://www.sebastiancamens.com/"
+    "bio": "Sebastian Camens renders 3D visuals and electronic music across separate practices. Seattle-based artist and art director with 10+ years shaping computational forms. At AAA26, creating live visuals for Kindohm. Music releases on NADA and Conditional. Album Asymmetry manifested as both digital audio and 3D-printed wall clock. Communication Design, Monash University.",
+    "website": "https://www.sebastiancamens.com/",
+    "image": "img/sebastian_camens.jpg"
   },
   {
     "name": "Tom Hall",
     "bio": "Tom Hall interpolates time through computer-programmed synthesis and reactive visual systems. Created the first Max for Live educational series (2M+ views). Developer at Cycling '74 for over a decade. R&D for Arturia, Moog, and Korg hardware. Founding member of Space Song Foundation's 200-year interstellar art project with NASA/JPL. USC Thornton Professor: Advanced Audio Synthesis, DSP, Computer Music. Los Angeles.",
-    "website": "https://www.tomhall.xyz/"
+    "website": "https://www.tomhall.xyz/",
+    "image": "img/tomhall.jpg"
   },
   {
     "name": "tsrono",
     "bio": "tsrono creates electronic rhythmic scrying and wave envelopment. Louisiana-based since 2014. Releases on Not Yet Remembered, 3OP, and Point Source Electronic Arts. Collaborative work 0.syx with Melted_Self. 2025: supporting Autechre.",
-    "website": "https://tsrono.music"
+    "website": "https://tsrono.music",
+    "image": "img/tsrono.jpg"
   },
   {
     "name": "William Fields",
     "bio": "William Fields explores generative processes, improvisation, and audio-visual correspondence. Released on SUPERPANG, tokinogake, EVEL, and others. Opening for Autechre's 2025 North American tour.",
-    "website": "https://williamfields.com/"
+    "website": "https://williamfields.com/",
+    "image": "img/william_fields.jpg"
   },
   {
     "name": "Wolff Parkinson White",
     "bio": "Wolff Parkinson White programs erratic rhythmic complexity inspired by faulty cardiac wiring—irregular heartbeats mapped to polyrhythm and alternate tuning systems. Random function-aided improvisation with audio-reactive visuals. NYC jazz drummer Jochen Rueckert's algorithmic alias since 2007. Album Favours features Gabriel Kahane and Norah Jones.",
-    "website": "https://www.jochenrueckert.net/wolff-parkinson-white"
+    "website": "https://www.jochenrueckert.net/wolff-parkinson-white",
+    "image": "img/wolff_parkinson.jpg"
   }
 ]

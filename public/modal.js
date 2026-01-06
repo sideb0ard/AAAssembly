@@ -33,6 +33,8 @@ function showArtistBio(artistName) {
 
   // Get modal elements
   const modal = document.getElementById('artistModal');
+  const imageElement = document.getElementById('artistImage');
+  const photoCreditElement = document.getElementById('photoCredit');
   const nameElement = document.getElementById('artistName');
   const bioElement = document.getElementById('artistBio');
   const websiteElement = document.getElementById('artistWebsite');
@@ -40,6 +42,23 @@ function showArtistBio(artistName) {
   // Set content
   nameElement.textContent = artist.name;
   bioElement.textContent = artist.bio || 'Bio coming soon...';
+
+  // Show/hide image
+  if (artist.image) {
+    imageElement.src = artist.image;
+    imageElement.alt = artist.name;
+    imageElement.style.display = 'block';
+  } else {
+    imageElement.style.display = 'none';
+  }
+
+  // Show/hide photo credit
+  if (artist.photoCredit) {
+    photoCreditElement.textContent = artist.photoCredit;
+    photoCreditElement.style.display = 'block';
+  } else {
+    photoCreditElement.style.display = 'none';
+  }
 
   // Show/hide website link
   if (artist.website) {

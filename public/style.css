@@ -124,10 +124,33 @@ a:hover {
 .right-column {
   width: 100%;
   height: 100%;
+  position: relative;
+}
+
+.tickets-link {
+  position: absolute;
+  top: 0;
+  right: 5px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #11c647;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 10px 20px;
+  border: 2px solid #11c647;
+  transition: all 0.3s ease;
+  z-index: 10;
+}
+
+.tickets-link:hover {
+  background-color: #11c647;
+  color: #102628;
+  text-decoration: none;
 }
 
 #p5-container {
-  padding: 20px 5px; /* 20px top/bottom, 5px left/right for minimal side margins */
+  padding: 70px 5px 20px 5px; /* 70px top for tickets link, 5px sides, 20px bottom */
   width: 100%;
   height: 100vh;
   display: flex;
@@ -167,12 +190,19 @@ a:hover {
   .container {
     grid-template-columns: 1fr; /* Stack columns vertically */
     gap: 30px; /* Gap between stacked sections */
-    max-width: 100%; /* Ensure container doesn't overflow */
+    max-width: 100vw; /* Ensure container doesn't overflow viewport */
+    width: 100%;
+    box-sizing: border-box;
+    position: relative; /* For absolute positioning of tickets link */
   }
 
   .left-column {
     gap: 20px; /* Tighter spacing on mobile */
     max-width: 100%; /* Prevent overflow */
+    width: 100%; /* Explicit width */
+    box-sizing: border-box;
+    overflow-x: hidden; /* Prevent horizontal overflow in content */
+    padding-top: 50px; /* Make room for tickets link above */
   }
 
   /* Reduce font sizes for mobile */
@@ -180,6 +210,8 @@ a:hover {
     font-size: 1rem; /* Smaller on mobile */
     max-width: 100%;
     letter-spacing: 0.3px; /* Reduce letter spacing */
+    word-wrap: break-word;
+    overflow-wrap: break-word;
   }
 
   .list-grid {
@@ -200,11 +232,30 @@ a:hover {
     gap: 20px; /* Reduce gap between logos */
   }
 
+  /* Adjust tickets link for mobile */
+  .tickets-link {
+    position: absolute; /* Position at top of container */
+    top: 0;
+    left: 0;
+    right: auto;
+    font-size: 1rem;
+    padding: 8px 15px;
+    display: inline-block;
+    width: auto; /* Let it size to content */
+  }
+
+  /* Right column adjustments for mobile */
+  .right-column {
+    width: 100%;
+    position: static; /* Remove positioning context so tickets link positions relative to container */
+    order: 2; /* Ensure right column comes after left */
+  }
+
   /* Fix p5-container for mobile - don't use 100vh */
   #p5-container {
     height: auto;
     min-height: 300px; /* Smaller minimum on mobile */
-    padding: 10px 0; /* Remove horizontal padding */
+    padding: 50px 0 10px 0; /* 50px top for smaller tickets link */
     max-width: 100%;
   }
 
@@ -212,11 +263,27 @@ a:hover {
   .title-svg {
     width: 100%;
     max-width: 100%;
+    height: auto;
+    display: block;
   }
 
   .date-svg {
     width: 90%; /* Slightly smaller on mobile */
     max-width: 100%;
+    height: auto;
+    display: block;
+  }
+}
+
+/* Additional mobile safety for very small screens */
+@media (max-width: 400px) {
+  body {
+    padding: 10px;
+  }
+
+  .tickets-link {
+    font-size: 0.9rem;
+    padding: 6px 12px;
   }
 }
 
@@ -245,6 +312,21 @@ a:hover {
   color: #e7e7e7;
   font-family: 'Oswald', sans-serif;
   position: relative;
+}
+
+.modal-content img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.photo-credit {
+  font-size: 0.9rem;
+  font-style: italic;
+  color: #11c647;
+  margin-bottom: 20px;
+  margin-top: 0;
 }
 
 .modal-content h2 {

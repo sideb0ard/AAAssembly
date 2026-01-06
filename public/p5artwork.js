@@ -16,10 +16,20 @@ let filenames = [
   'img/rtyler.jpg',
   'img/sebastian_camens.jpg',
   'img/tsrono.jpg',
-  'img/william_fields.jpg'
+  'img/william_fields.jpg',
+  'img/CarlLostritto.jpg',
+  'img/CattyDanZhang.jpg',
+  'img/ChiaAmisola.jpg',
+  'img/DeliKuvveti.jpg',
+  'img/c_robo.jpg',
+  'img/ruaridhlaw.jpg',
+  'img/tomhall.jpg',
+  'img/danieltemkin.jpg',
+  'img/codie.jpg',
+  'img/ClaireLEvans.jpg'
 ];
 
-let currentImageIndex = 0;
+let currentImageIndex = Math.floor(Math.random() * filenames.length);
 let imageCycleDuration = 5000; // ms each image stays before switching
 let lastImageSwitch = 0;
 
@@ -86,6 +96,10 @@ function setup() {
   // Use default renderer for performance, switch to SVG only for export
   let canvas = createCanvas(canvasSize, canvasSize);
   canvas.parent('p5-container');
+
+  // Set willReadFrequently for better performance with getImageData operations
+  drawingContext.willReadFrequently = true;
+
   noStroke();
   textFont('monospace');
   textAlign(CENTER, CENTER);
@@ -122,8 +136,8 @@ function setup() {
   }
 
   // Prepare first image (if any)
-  if (images.length > 0 && images[0]) {
-    brightnessGrid = makeBrightnessGridFromImage(images[0]);
+  if (images.length > 0 && images[currentImageIndex]) {
+    brightnessGrid = makeBrightnessGridFromImage(images[currentImageIndex]);
   } else {
     // neutral fallback
     brightnessGrid = neutralGrid(50);
@@ -138,7 +152,7 @@ function draw() {
 
   // If not currently transitioning and it's time, start a randomized transition to next image
   if (!transitioning && images.length > 1 && now - lastImageSwitch > imageCycleDuration) {
-    const nextImageIndex = (currentImageIndex + 1) % images.length;
+    const nextImageIndex = getRandomImageIndex(currentImageIndex, images.length);
 
     // snapshot previous brightness
     prevBrightnessGrid = copyGrid(brightnessGrid);
@@ -303,10 +317,26 @@ function makeBrightnessGridFromImage(img) {
   for (let y = 0; y < rows; y++) {
     grid[y] = [];
     for (let x = 0; x < cols; x++) {
-      grid[y][x] = brightness(copy.get(x, y));
+      // Access pixels array directly to avoid repeated getImageData calls
+      let index = (x + y * copy.width) * 4;
+      let r = copy.pixels[index];
+      let g = copy.pixels[index + 1];
+      let b = copy.pixels[index + 2];
+      // Use p5's brightness() on a color object to match original behavior
+      grid[y][x] = brightness(color(r, g, b));
     }
   }
   return grid;
+}
+
+// ----- Helper: get random image index (different from current) -----
+function getRandomImageIndex(currentIndex, totalImages) {
+  if (totalImages <= 1) return 0;
+  let newIndex;
+  do {
+    newIndex = floor(random(totalImages));
+  } while (newIndex === currentIndex);
+  return newIndex;
 }
 
 // ----- Helper: copy a grid (2D array) -----

@@ -47,6 +47,7 @@
           <li><a href="#">Keith Fullerton Whitman</a></li>
           <li><a href="#">Kindohm</a></li>
           <li><a href="#">Luisa Mei</a></li>
+          <li><a href="#">Lee Tusman</a></li>
           <li><a href="#">Nathan Ho</a></li>
           <li><a href="#">nnirror</a></li>
           <li><a href="#">R Tyler</a></li>
@@ -67,6 +68,7 @@
     </div>
 
     <div class="right-column">
+      <a href="https://grayarea.org/event/algorithmic-art-assembly-v3-0/" target="_blank" class="tickets-link">TICKETS</a>
       <div id="p5-container">
       </div>
 
@@ -78,6 +80,8 @@
   <div id="artistModal" class="modal">
     <div class="modal-content">
       <span class="close">&times;</span>
+      <img id="artistImage" src="" alt="" style="display: none;">
+      <p id="photoCredit" class="photo-credit" style="display: none;"></p>
       <h2 id="artistName"></h2>
       <p id="artistBio"></p>
       <a id="artistWebsite" href="" target="_blank" style="display: none;">Visit Website</a>
@@ -85,6 +89,35 @@
   </div>
 
   <script src="modal.js"></script>
+  <script>
+    // Align tickets link with right edge of p5 canvas
+    function alignTicketsLink() {
+      const canvas = document.querySelector('#p5-container canvas');
+      const ticketsLink = document.querySelector('.tickets-link');
+      const rightColumn = document.querySelector('.right-column');
+
+      if (canvas && ticketsLink && rightColumn && window.innerWidth > 700) {
+        // Get the container and canvas display dimensions
+        const containerWidth = rightColumn.offsetWidth;
+        const canvasWidth = canvas.offsetWidth; // Use offsetWidth, not width!
+
+        // Calculate the gap on each side (canvas is centered)
+        const gap = (containerWidth - canvasWidth) / 2;
+
+        // Set the tickets link to align with canvas right edge
+        ticketsLink.style.right = gap + 'px';
+      }
+    }
+
+    // Run on load and resize with multiple checks
+    window.addEventListener('load', () => {
+      setTimeout(alignTicketsLink, 100);
+      setTimeout(alignTicketsLink, 500); // Additional check
+    });
+    window.addEventListener('resize', () => {
+      setTimeout(alignTicketsLink, 100);
+    });
+  </script>
 
 </body>
 
