@@ -16,7 +16,8 @@ let filenames = [
   'img/rtyler.jpg',
   'img/sebastian_camens.jpg',
   'img/tsrono.jpg',
-  'img/william_fields.jpg'
+  'img/william_fields.jpg',
+  'img/lee_tusman.jpg'
 ];
 
 let currentImageIndex = 0;
